@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Vistas.Addalumno">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="foto" WidthRequest="100" HeightRequest="100"/>
+           
+
+            <Entry x:Name="nombres" Placeholder="Ingrese Nombres" Keyboard="Text"/>
+            <Entry x:Name="apellidos" Placeholder="Ingrese Apellidos" Keyboard="Text"/>
+            <Entry x:Name="fechanacimiento" Placeholder="Ingrese FechaNaciemiento" Keyboard="Text"/>
+            <Entry x:Name="pais" Placeholder="Ingrese Pais " Keyboard="Text"/>
+            <Entry x:Name="departamento" Placeholder="Ingrese Departamento" Keyboard="Text"/>
+            <Entry x:Name="municipio" Placeholder="Ingrese Municipio" Keyboard="Text"/>
+            <Entry x:Name="estadocivil" Placeholder="Ingrese estadocivil" Keyboard="Text"/>
+            <Entry x:Name="telefono" Placeholder="Ingrese Telefono" Keyboard="Numeric"/>
+            <Entry x:Name="latitud" Placeholder="Ingrese Latitud" Keyboard="Numeric"/>
+            <Entry x:Name="longitud" Placeholder="Ingrese Longitud" Keyboard="Numeric"/>
+            <Button x:Name="BtnFoto" Text="Subir Foto" Clicked="BtnFoto_Clicked"/>
+            <Button x:Name="BtnGuardar" Clicked="BtnGuardar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

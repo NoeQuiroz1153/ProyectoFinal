@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable ="x"
+             x:Class="ProyectoFinal.Vistas.Registros">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar" x:Name="BtnAdd" Clicked="BtnAdd_Clicked"
+                     />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <SearchBar Placeholder="Buscar Contacto" TextChanged="SearchBar_TextChanged"                       />
+        <CollectionView x:Name="ListadoA"  Margin="25" Background="White" SelectionChanged="ListadoA_SelectionChanged">
+
+            <CollectionView.ItemTemplate>
+
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItem Text="Editar"
+                                       BackgroundColor="Yellow"
+                                       CommandParameter="{Binding .}"
+                                       IconImageSource="editar.png"
+                                       x:Name="BtnEditar"
+                                       Clicked="BtnEditar_Clicked"
+                                       />
+                            <SwipeItem Text="Eliminar"
+                                       BackgroundColor="Red"
+                                       CommandParameter="{Binding .}"
+                                       IconImageSource="borra.png"
+                                       x:Name="BtnEliminar"
+                                       Clicked="BtnEliminar_Clicked"/>
+                        </SwipeView.LeftItems>
+                        <Frame Padding="5" CornerRadius="5" IsClippedToBounds="False">
+                            <Grid HeightRequest="100">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width=".3*"></ColumnDefinition>
+                                    <ColumnDefinition Width=".7*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height=".5*"/>
+                                    <RowDefinition Height=".5*"/>
+                                </Grid.RowDefinitions>
+                                <Image Grid.RowSpan="2"  Source="chim.PNG"/>
+                                <Label Grid.Column="1" FontAttributes="Bold" FontSize="Large"
+                               Text="{Binding Nombres}" TextColor="Black" VerticalOptions="Center"/>
+                                <Label Grid.Row="1" Grid.Column="1" TextColor="Black" FontSize="Medium" Text="{Binding Pais}"/>
+
+                            </Grid>
+
+                        </Frame>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </StackLayout>
+
+</ContentPage>
