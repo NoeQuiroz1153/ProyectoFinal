@@ -61,18 +61,7 @@ namespace ProyectoFinal.Vistas
             return null;
         }
 
-        //public Image Base64ToImage(string base64String)
-        //{
-        //    // Convert base 64 string to byte[]
-        //    byte[] imageBytes = Convert.FromBase64String(base64String);
-        //    // Convert byte[] to Image
-        //    using (var ms = new MemoryStream(imageBytes, 0, imageBytes.Length))
-        //    {
-        //        Image image = Image.FromStream(ms, true);
-        //        return image;
-        //    }
-        //}
-
+       
 
         public async void BtnGuardar_Clicked(object sender, EventArgs e)
         {
@@ -94,13 +83,14 @@ namespace ProyectoFinal.Vistas
             photo = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
                 Directory = "Capertafotos",
-                Name = "Foto.jpg",
+                Name = "Foto.png",
                 SaveToAlbum = true
               });
 
             if(photo!=null)
             {
                 foto.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
+                
             }
 
 
@@ -124,7 +114,7 @@ namespace ProyectoFinal.Vistas
                     Telefono = Convert.ToInt32(telefono.Text),
                     Latitud = Convert.ToDouble(latitud.Text),
                     Longitud = Convert.ToDouble(longitud.Text),
-                    //Foto = traeImagenToBase64(),
+                    Foto = traeImagenToBase64(),
                 };
                 if (await Models.Cntrolcrud.CreateAlumno(alumn) > 0)
                 {
@@ -157,7 +147,7 @@ namespace ProyectoFinal.Vistas
                 Telefono = Convert.ToInt32(telefono.Text),
                 Latitud = Convert.ToDouble(latitud.Text),
                 Longitud = Convert.ToDouble(longitud.Text),
-                //Foto = traeImagenToBase64(),
+                Foto = traeImagenToBase64(),
             };
             await Models.Cntrolcrud.EditarAlumnos(alumn);
             await DisplayAlert("Alumno Actualizado", "El Alumno " + alumn.Nombres + "Ha sido Actualizado", "OK");

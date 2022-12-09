@@ -22,7 +22,7 @@ namespace ProyectoFinal.Models
                 {
                     var content = await response.Content.ReadAsStringAsync();
                     listalumnos = JsonConvert.DeserializeObject<List<Models.Alumno>>(content);
-                       
+                  
                 }
 
             }
@@ -97,23 +97,6 @@ namespace ProyectoFinal.Models
 
 
 
-        public async static Task<List<Models.Alumno>> Getfoto()
-        {
-            List<Models.Alumno> listfoto = new List<Models.Alumno>();
-
-            using (HttpClient clientrequest = new HttpClient())
-            {
-                var response = await clientrequest.GetAsync(Apidress.getservices);
-                if (response.IsSuccessStatusCode)
-                {
-                    var content = await response.Content.ReadAsStringAsync();
-                    listfoto = JsonConvert.DeserializeObject<List<Models.Alumno>>(content);
-
-                }
-
-            }
-            return listfoto;
-        }
 
 
 

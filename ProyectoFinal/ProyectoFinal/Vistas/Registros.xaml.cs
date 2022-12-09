@@ -25,7 +25,8 @@ namespace ProyectoFinal.Vistas
             base.OnAppearing();
             ListadoA.ItemsSource= await Models.Cntrolcrud.GetAlumnos();
             
-            
+
+
         }
 
         //public Image Base64ToImage(string base64String)
@@ -35,9 +36,9 @@ namespace ProyectoFinal.Vistas
         //    // Convert byte[] to Image
         //    using (var ms = new MemoryStream(imageBytes, 0, imageBytes.Length))
         //    {
-        //        Image image = Image.FromStream(ms, true);
+        //        Image imagen = Image.FromStream(ms,true);
 
-        //        return image;
+        //        return imagen;
         //    }
         //}
 
