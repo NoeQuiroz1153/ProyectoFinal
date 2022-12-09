@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.Vistas.Addalumno">
     <ContentPage.Content>
-        <StackLayout>
-            <Image x:Name="foto" WidthRequest="100" HeightRequest="100"/>
+        
+            <StackLayout>
            
+            <Image x:Name="foto" WidthRequest="100" HeightRequest="50"/>
+            <Entry x:Name="id" TextColor="White" IsEnabled="false"/>
 
             <Entry x:Name="nombres" Placeholder="Ingrese Nombres" Keyboard="Text"/>
             <Entry x:Name="apellidos" Placeholder="Ingrese Apellidos" Keyboard="Text"/>
@@ -17,6 +19,9 @@
             <Entry x:Name="telefono" Placeholder="Ingrese Telefono" Keyboard="Numeric"/>
             <Entry x:Name="latitud" Placeholder="Ingrese Latitud" Keyboard="Numeric"/>
             <Entry x:Name="longitud" Placeholder="Ingrese Longitud" Keyboard="Numeric"/>
+   
+       
+       
             <Button x:Name="BtnFoto" Text="Subir Foto" Clicked="BtnFoto_Clicked"/>
             <Button x:Name="BtnGuardar" Clicked="BtnGuardar_Clicked"/>
 

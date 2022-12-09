@@ -43,7 +43,7 @@
                                     <RowDefinition Height=".5*"/>
                                     <RowDefinition Height=".5*"/>
                                 </Grid.RowDefinitions>
-                                <Image Grid.RowSpan="2"  Source="chim.PNG"/>
+                                <Image Grid.RowSpan="2" x:Name="foto" Source="{Binding Foto}"/>
                                 <Label Grid.Column="1" FontAttributes="Bold" FontSize="Large"
                                Text="{Binding Nombres}" TextColor="Black" VerticalOptions="Center"/>
                                 <Label Grid.Row="1" Grid.Column="1" TextColor="Black" FontSize="Medium" Text="{Binding Pais}"/>

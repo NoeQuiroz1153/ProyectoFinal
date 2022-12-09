@@ -26,6 +26,7 @@ namespace ProyectoFinal.Vistas
             InitializeComponent();
              Title = "Editar Contacto";
             _Alumno = Alumno;
+            id.Text = Convert.ToString(Alumno.Id);
             nombres.Text = Alumno.Nombres;
             apellidos.Text = Alumno.Apellidos;
             fechanacimiento.Text = Convert.ToString(Alumno.FechaNacimiento);
@@ -60,44 +61,30 @@ namespace ProyectoFinal.Vistas
             return null;
         }
 
-      
+        //public Image Base64ToImage(string base64String)
+        //{
+        //    // Convert base 64 string to byte[]
+        //    byte[] imageBytes = Convert.FromBase64String(base64String);
+        //    // Convert byte[] to Image
+        //    using (var ms = new MemoryStream(imageBytes, 0, imageBytes.Length))
+        //    {
+        //        Image image = Image.FromStream(ms, true);
+        //        return image;
+        //    }
+        //}
 
 
-        private async void BtnGuardar_Clicked(object sender, EventArgs e)
+        public async void BtnGuardar_Clicked(object sender, EventArgs e)
         {
+          if(_Alumno != null)
             {
-                var alumn = new Models.Alumno
-
-                {
-                    Nombres = nombres.Text,
-                    Apellidos = apellidos.Text,
-                    FechaNacimiento = Convert.ToDateTime(fechanacimiento.Text),
-                    Pais = pais.Text,
-                    Departamento = departamento.Text,
-                    Municipio = municipio.Text,
-                    EstadoCivil = estadocivil.Text,
-                    Telefono = Convert.ToInt32(telefono.Text),
-                    Latitud = Convert.ToDouble(latitud.Text),
-                    Longitud = Convert.ToDouble(longitud.Text),
-                    //Foto = traeImagenToBase64(),
-                };
-                if (await Models.Cntrolcrud.CreateAlumno(alumn) > 0)
-                {
-                    await DisplayAlert("Alumno Creado", "El Alumno " + alumn.Nombres + "Ha sido creado", "OK");
-                    await Navigation.PushAsync(new Registros());
-
-                }
-                else
-                {
-                    await Models.Cntrolcrud.EditarAlumnos(alumn);
-                    await DisplayAlert("Alumno Actualizado", "El Alumno " + alumn.Nombres + "Ha sido Actualizado", "OK");
-                    await Navigation.PushAsync(new Registros());
-                //await DisplayAlert("Error", "El Alumno " + alumn.Nombres + "No se Ha sido creado", "OK");
+                Editar();
             }
-        }
-
-
-
+          else
+            {
+                Agregar();
+            }
+        
 
         }
         
@@ -120,8 +107,72 @@ namespace ProyectoFinal.Vistas
         }
 
 
-       
+        async void Agregar()
+        {
+            {
+                var alumn = new Models.Alumno
 
-     
+                {
+                  
+                    Nombres = nombres.Text,
+                    Apellidos = apellidos.Text,
+                    FechaNacimiento = Convert.ToDateTime(fechanacimiento.Text),
+                    Pais = pais.Text,
+                    Departamento = departamento.Text,
+                    Municipio = municipio.Text,
+                    EstadoCivil = estadocivil.Text,
+                    Telefono = Convert.ToInt32(telefono.Text),
+                    Latitud = Convert.ToDouble(latitud.Text),
+                    Longitud = Convert.ToDouble(longitud.Text),
+                    //Foto = traeImagenToBase64(),
+                };
+                if (await Models.Cntrolcrud.CreateAlumno(alumn) > 0)
+                {
+                    await DisplayAlert("Alumno Creado", "El Alumno " + alumn.Nombres + "Ha sido creado", "OK");
+                    await Navigation.PushAsync(new Registros());
+
+                }
+                else
+                {
+                    await DisplayAlert("Error", "El Alumno " + alumn.Nombres + "No se Ha sido creado", "OK");
+                }
+
+            }
+
+        }
+
+        async void Editar()
+        {
+            var alumn = new Models.Alumno
+
+            {
+                Id = Convert.ToInt32(id.Text),
+                Nombres = nombres.Text,
+                Apellidos = apellidos.Text,
+                FechaNacimiento = Convert.ToDateTime(fechanacimiento.Text),
+                Pais = pais.Text,
+                Departamento = departamento.Text,
+                Municipio = municipio.Text,
+                EstadoCivil = estadocivil.Text,
+                Telefono = Convert.ToInt32(telefono.Text),
+                Latitud = Convert.ToDouble(latitud.Text),
+                Longitud = Convert.ToDouble(longitud.Text),
+                //Foto = traeImagenToBase64(),
+            };
+            await Models.Cntrolcrud.EditarAlumnos(alumn);
+            await DisplayAlert("Alumno Actualizado", "El Alumno " + alumn.Nombres + "Ha sido Actualizado", "OK");
+            await Navigation.PushAsync(new Registros());
+        }
+
+
+
+
+
+
+        
+
+
+
     }
+
 }
