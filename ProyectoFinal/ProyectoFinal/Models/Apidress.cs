@@ -13,10 +13,9 @@ namespace ProyectoFinal.Models
         public static string postphp = "POST.php";
         public static string putphp = "PUT.php";
         public static string deletephp = "DELETE.php?Id=";
-        private static string EndpointList = "GET.php";
-        private static string EndpointCreate= "POST.php";
 
-        public static string getservices = string.Format(plantilaapi, ipadress, restapi,getphp);
+
+        public static string getservices = string.Format(plantilaapi, ipadress, restapi, getphp);
         public static string postservices = string.Format(plantilaapi, ipadress, restapi, postphp);
         public static string putservices = string.Format(plantilaapi, ipadress, restapi, putphp);
         public static string deleteservices = string.Format(plantilaapi, ipadress, restapi, deletephp);

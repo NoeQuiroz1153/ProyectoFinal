@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Vistas.Master" Title="Master">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#7BA9CF">
+            <Button x:Name="BtnMenu" Text="Menu" Clicked="BtnMenu_Clicked"
+                    BackgroundColor="#7BA9CF"
+                    VerticalOptions="Center"
+                    FontSize="30"
+                    WidthRequest="64" 
+                    HeightRequest="64"/>
+            <Button x:Name="BtnAgregar" Text="Agregar registro" Clicked="BtnAgregar_Clicked"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    CornerRadius="45"
+                    Image="Agregar.png"
+                    WidthRequest="80" 
+                    HeightRequest="80"/>
+
+            <Button x:Name="BtnLista" Text="Listado" Clicked="BtnLista_Clicked"
+                    BackgroundColor="White" 
+                    TextColor="Black"
+                    CornerRadius="45"
+                    Image="Lista.png"
+                    WidthRequest="80" 
+                    HeightRequest="80"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

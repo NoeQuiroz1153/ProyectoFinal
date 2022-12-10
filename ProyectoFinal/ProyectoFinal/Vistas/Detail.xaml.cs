@@ -10,16 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace ProyectoFinal.Vistas
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class InicioSesion : ContentPage
+    public partial class Detail : ContentPage
     {
-        public InicioSesion()
+        public Detail()
         {
-          InitializeComponent();
-        }
+            InitializeComponent();
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MainPage());
+            
         }
     }
 }

@@ -11,9 +11,9 @@ namespace ProyectoFinal
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Registros());
+            MainPage = new NavigationPage(new InicioSesion());
         }
-
+        public static MasterDetailPage MasterDet { get; set; }
         protected override void OnStart()
         {
         }

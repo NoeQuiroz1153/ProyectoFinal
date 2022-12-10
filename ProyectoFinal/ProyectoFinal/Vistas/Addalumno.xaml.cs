@@ -24,27 +24,25 @@ namespace ProyectoFinal.Vistas
         public Addalumno(Models.Alumno Alumno)
         {
             InitializeComponent();
-             Title = "Editar Contacto";
+            Title = "Editar Contacto";
             _Alumno = Alumno;
             id.Text = Convert.ToString(Alumno.Id);
             nombres.Text = Alumno.Nombres;
             apellidos.Text = Alumno.Apellidos;
             fechanacimiento.Text = Convert.ToString(Alumno.FechaNacimiento);
-            pais.Text = Alumno.Pais;
+            pais.SelectedItem = Alumno.Pais;
             departamento.Text = Alumno.Departamento;
             municipio.Text = Alumno.Municipio;
-            estadocivil.Text = Alumno.EstadoCivil;
+            estadocivil.SelectedItem = Alumno.EstadoCivil;
             telefono.Text = Convert.ToString(Alumno.Telefono);
             latitud.Text = Convert.ToString(Alumno.Latitud);
-            longitud.Text= Convert.ToString(Alumno.Longitud);
-           // foto =Convert.ToBase64String(Alumno.Foto);
-
-      
-            
+            longitud.Text = Convert.ToString(Alumno.Longitud);
+            foto.Source = Base64ToImage(Alumno.Foto);
+            ;
         }
 
 
-    private String traeImagenToBase64()
+      private String traeImagenToBase64()
         {
             if (photo != null)
             {
@@ -61,9 +59,13 @@ namespace ProyectoFinal.Vistas
             return null;
         }
 
-       
+        public static ImageSource Base64ToImage(string base64)
+        {
+            byte[] imageBytes = Convert.FromBase64String(base64);
+            return ImageSource.FromStream(() => new MemoryStream(imageBytes));
+        }
 
-        public async void BtnGuardar_Clicked(object sender, EventArgs e)
+        public void BtnGuardar_Clicked(object sender, EventArgs e)
         {
           if(_Alumno != null)
             {
@@ -103,18 +105,18 @@ namespace ProyectoFinal.Vistas
                 var alumn = new Models.Alumno
 
                 {
-                  
+
                     Nombres = nombres.Text,
                     Apellidos = apellidos.Text,
                     FechaNacimiento = Convert.ToDateTime(fechanacimiento.Text),
-                    Pais = pais.Text,
+                    Pais = pais.SelectedItem.ToString(),
                     Departamento = departamento.Text,
                     Municipio = municipio.Text,
-                    EstadoCivil = estadocivil.Text,
+                    EstadoCivil = estadocivil.SelectedItem.ToString(),
                     Telefono = Convert.ToInt32(telefono.Text),
                     Latitud = Convert.ToDouble(latitud.Text),
                     Longitud = Convert.ToDouble(longitud.Text),
-                    Foto = traeImagenToBase64(),
+                    Foto = Convert.ToString(traeImagenToBase64()),
                 };
                 if (await Models.Cntrolcrud.CreateAlumno(alumn) > 0)
                 {
@@ -140,10 +142,10 @@ namespace ProyectoFinal.Vistas
                 Nombres = nombres.Text,
                 Apellidos = apellidos.Text,
                 FechaNacimiento = Convert.ToDateTime(fechanacimiento.Text),
-                Pais = pais.Text,
+                Pais = pais.SelectedItem.ToString(),
                 Departamento = departamento.Text,
                 Municipio = municipio.Text,
-                EstadoCivil = estadocivil.Text,
+                EstadoCivil = estadocivil.SelectedItem.ToString(),
                 Telefono = Convert.ToInt32(telefono.Text),
                 Latitud = Convert.ToDouble(latitud.Text),
                 Longitud = Convert.ToDouble(longitud.Text),
