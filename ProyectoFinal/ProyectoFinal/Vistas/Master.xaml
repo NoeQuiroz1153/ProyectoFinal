@@ -26,6 +26,14 @@
                     WidthRequest="80" 
                     HeightRequest="80"/>
 
+            <Button x:Name="Cerrar" Text="Cerrar Sesion" Clicked="Cerrar_Clicked"
+                    BackgroundColor="White" 
+                    TextColor="Black"
+                    CornerRadius="45"
+                    Image="Salir.png"
+                    WidthRequest="80" 
+                    HeightRequest="80"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

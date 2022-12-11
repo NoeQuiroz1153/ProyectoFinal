@@ -30,6 +30,24 @@ namespace ProyectoFinal.Models
         }
 
 
+        public async static Task<List<Models.Alumno>> GetAlumno(int id)
+        {
+            List<Models.Alumno> listalumnos = new List<Models.Alumno>();
+
+            using (HttpClient clientrequest = new HttpClient())
+            {
+                var response = await clientrequest.GetAsync(Apidress.getservices+id);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    listalumnos = JsonConvert.DeserializeObject<List<Models.Alumno>>(content);
+
+                }
+
+            }
+            return listalumnos;
+        }
+
         public async static Task<int> CreateAlumno(Models.Alumno alumno)
         {
             string jsonobj =JsonConvert.SerializeObject(alumno);

@@ -4,11 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:ProyectoFinal.Models"
              mc:Ignorable ="x"
              x:Class="ProyectoFinal.Vistas.Registros">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Agregar" x:Name="BtnAdd" Clicked="BtnAdd_Clicked"
-                     />
-    </ContentPage.ToolbarItems>
-
+    
+   
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:Base64ToImageSource x:Key="Base64ToImageSource" />
@@ -57,7 +54,7 @@
                                 <Label Grid.Column="1" FontAttributes="Bold" FontSize="Large"
                                Text="{Binding Nombres}" TextColor="Black" VerticalOptions="Center"/>
                                 <Label Grid.Row="1" Grid.Column="1" TextColor="Black" FontSize="Medium" Text="{Binding Pais}"/>
-
+                                
                             </Grid>
 
                         </Frame>

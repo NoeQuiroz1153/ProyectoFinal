@@ -17,9 +17,23 @@ namespace ProyectoFinal.Vistas
           InitializeComponent();
         }
 
+     
+
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            String usuario = User.Text;
+            String contraseña = Contra.Text;
+
+            if ((usuario == "Admin") && (contraseña == "root"))
+            {
+                Navigation.PushAsync(new MainPage());
+                
+            }
+            else
+            {
+                lblResultado.Text = "El usuario o contraseña son incorrectos!";
+            }
+           
         }
     }
 }

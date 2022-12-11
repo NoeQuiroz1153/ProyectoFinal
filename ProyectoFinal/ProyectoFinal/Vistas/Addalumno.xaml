@@ -4,7 +4,7 @@
              x:Class="ProyectoFinal.Vistas.Addalumno">
     <ScrollView>
 
-        <StackLayout BackgroundColor="#54ADF6"
+        <StackLayout BackgroundColor="CadetBlue"
                      VerticalOptions="FillAndExpand">
 
             <Label Text="Ingrese los datos"
@@ -39,7 +39,7 @@
                        HeightRequest="80
                        "/>
 
-                <Button x:Name="BtnTomarFoto" Text="Tomar foto" Clicked="BtnFoto_Clicked"
+                <Button x:Name="BtnTomarFoto"  ContentLayout="Left,10" ImageSource="camara.png" Text="Tomar foto" Clicked="BtnFoto_Clicked" 
                             FontAttributes="Bold"
                             TextTransform="None"
                             BackgroundColor="#08589A"
@@ -73,7 +73,7 @@
                    FontSize="15"
                    TextColor="Black"
                    PlaceholderColor="#CBC2B4"
-                   WidthRequest="50" HeightRequest="34.6"/>
+                   WidthRequest="50" HeightRequest="36"/>
                 </Frame>
             </Grid>
 
@@ -96,7 +96,7 @@
                    FontSize="15"
                    TextColor="Black"
                    PlaceholderColor="#CBC2B4"
-                   WidthRequest="50" HeightRequest="34.6"/>
+                   WidthRequest="50" HeightRequest="36"/>
                 </Frame>
             </Grid>
 
@@ -108,7 +108,7 @@
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="calendario.png"
+                <Image Source="calend.png"
                WidthRequest="250" HeightRequest="100"
                HorizontalOptions="Center"
                Margin="10"/>
@@ -124,7 +124,7 @@
                    FontSize="15"
                    TextColor="Black"
                    PlaceholderColor="#CBC2B4"
-                   WidthRequest="50" HeightRequest="34.6"/>
+                   WidthRequest="50" HeightRequest="36"/>
                 </Frame>
             </Grid>
 
@@ -136,7 +136,7 @@
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="ubicacion.png"
+                <Image Source="pais.png"
                WidthRequest="250" HeightRequest="100"
                HorizontalOptions="Center"
                Margin="10"/>
@@ -148,9 +148,9 @@
                    Grid.Row="0" Grid.Column="1"
                                VerticalOptions="CenterAndExpand">
 
-                    <Picker x:Name="pais" Title="Seleccione un pais" 
+                    <Picker x:Name="pais" Title="Seleccione un pais" FontSize="15"
                     TextColor="#6E4417"
-                    WidthRequest="50" HeightRequest="37">
+                    WidthRequest="50" HeightRequest="36">
                         <Picker.Items>
                             <x:String>
                                 Honduras (504+)
@@ -177,6 +177,11 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
+                
+                <Image Source="depar.png"
+               WidthRequest="250" HeightRequest="100"
+               HorizontalOptions="Center"
+               Margin="10"/>
 
                 <Frame HasShadow="{OnPlatform Android=true}"
                Padding="{OnPlatform Android=4}"
@@ -189,7 +194,7 @@
                    FontSize="15"
                    TextColor="Black"
                    PlaceholderColor="#CBC2B4"
-                   WidthRequest="50" HeightRequest="34.6"/>
+                   WidthRequest="50" HeightRequest="36"/>
                 </Frame>
             </Grid>
 
@@ -200,7 +205,11 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
-
+                
+                <Image Source="munici.png"
+               WidthRequest="250" HeightRequest="100"
+               HorizontalOptions="Center"
+               Margin="10"/>
                 <Frame HasShadow="{OnPlatform Android=true}"
                Padding="{OnPlatform Android=4}"
                CornerRadius="15"
@@ -212,7 +221,7 @@
                    FontSize="15"
                    TextColor="Black"
                    PlaceholderColor="#CBC2B4"
-                   WidthRequest="50" HeightRequest="34.6"/>
+                   WidthRequest="50" HeightRequest="36"/>
                 </Frame>
             </Grid>
 
@@ -224,7 +233,7 @@
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="Civil.png"
+                <Image Source="estadocivil.png"
                WidthRequest="250" HeightRequest="100"
                HorizontalOptions="Center"
                Margin="10"/>
@@ -236,9 +245,9 @@
                    Grid.Row="0" Grid.Column="1"
                                VerticalOptions="CenterAndExpand">
 
-                    <Picker x:Name="estadocivil" Title="Seleccione su estado civil" 
+                    <Picker x:Name="estadocivil" Title="Seleccione su estado civil" FontSize="15" 
                     TextColor="#6E4417"
-                    WidthRequest="50" HeightRequest="37">
+                    WidthRequest="50" HeightRequest="36">
                         <Picker.Items>
                             <x:String>
                                 Soltero/a
@@ -293,7 +302,7 @@
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="Telefono.png"
+                <Image Source="norte.png"
                WidthRequest="250" HeightRequest="100"
                HorizontalOptions="Center"
                Margin="10"/>
@@ -321,7 +330,7 @@
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="Telefono.png"
+                <Image Source="sur.png"
                WidthRequest="250" HeightRequest="100"
                HorizontalOptions="Center"
                Margin="10"/>
@@ -340,7 +349,7 @@
                    WidthRequest="50" HeightRequest="34.6"/>
                 </Frame>
             </Grid>
-            <Button x:Name="BtnAgregarDatos" Text="Guardar registro" Clicked="BtnGuardar_Clicked"
+            <Button x:Name="BtnAgregarDatos" Text="Guardar registro" Clicked="BtnGuardar_Clicked" ImageSource="guardar.png"
                 FontSize="18"
                 FontAttributes="Bold"
                 TextTransform="None"

@@ -1,6 +1,7 @@
 ﻿using ProyectoFinal.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,8 @@ namespace ProyectoFinal.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Registros : ContentPage
     {
+        
+
         public Registros()
         {
             InitializeComponent();
@@ -24,10 +27,14 @@ namespace ProyectoFinal.Vistas
         {
             base.OnAppearing();
             ListadoA.ItemsSource= await Models.Cntrolcrud.GetAlumnos();
-            
+           
 
 
         }
+
+       
+
+
 
         private void ListadoA_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -36,8 +43,13 @@ namespace ProyectoFinal.Vistas
 
         async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-         
+            // ListadoA.ItemsSource = ListadoA.Where(s => s.Nombres.StarWith(e.NewTextValue));
         }
+
+     
+
+
+
 
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {

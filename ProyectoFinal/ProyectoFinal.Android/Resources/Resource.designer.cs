@@ -25,6 +25,1782 @@ namespace ProyectoFinal.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_fade_in = global::ProyectoFinal.Droid.Resource.Animation.abc_fade_in;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_fade_out = global::ProyectoFinal.Droid.Resource.Animation.abc_fade_out;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ProyectoFinal.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_popup_enter = global::ProyectoFinal.Droid.Resource.Animation.abc_popup_enter;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_popup_exit = global::ProyectoFinal.Droid.Resource.Animation.abc_popup_exit;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ProyectoFinal.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_slide_in_bottom = global::ProyectoFinal.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_slide_in_top = global::ProyectoFinal.Droid.Resource.Animation.abc_slide_in_top;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_slide_out_bottom = global::ProyectoFinal.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.abc_slide_out_top = global::ProyectoFinal.Droid.Resource.Animation.abc_slide_out_top;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::ProyectoFinal.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::ProyectoFinal.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.design_snackbar_in = global::ProyectoFinal.Droid.Resource.Animation.design_snackbar_in;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animation.design_snackbar_out = global::ProyectoFinal.Droid.Resource.Animation.design_snackbar_out;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Animator.design_appbar_state_list_animator = global::ProyectoFinal.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarDivider = global::ProyectoFinal.Droid.Resource.Attribute.actionBarDivider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarItemBackground = global::ProyectoFinal.Droid.Resource.Attribute.actionBarItemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarPopupTheme = global::ProyectoFinal.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarSize = global::ProyectoFinal.Droid.Resource.Attribute.actionBarSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarSplitStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarTabBarStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarTabStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionBarTabStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarTabTextStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarTheme = global::ProyectoFinal.Droid.Resource.Attribute.actionBarTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionBarWidgetTheme = global::ProyectoFinal.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionDropDownStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionDropDownStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionLayout = global::ProyectoFinal.Droid.Resource.Attribute.actionLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionMenuTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionMenuTextColor = global::ProyectoFinal.Droid.Resource.Attribute.actionMenuTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeBackground = global::ProyectoFinal.Droid.Resource.Attribute.actionModeBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeCloseDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeCopyDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeCutDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeFindDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModePasteDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeShareDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeSplitBackground = global::ProyectoFinal.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionModeStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::ProyectoFinal.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::ProyectoFinal.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionProviderClass = global::ProyectoFinal.Droid.Resource.Attribute.actionProviderClass;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.actionViewClass = global::ProyectoFinal.Droid.Resource.Attribute.actionViewClass;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.activityChooserViewStyle = global::ProyectoFinal.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::ProyectoFinal.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.alertDialogCenterButtons = global::ProyectoFinal.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.alertDialogStyle = global::ProyectoFinal.Droid.Resource.Attribute.alertDialogStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.alertDialogTheme = global::ProyectoFinal.Droid.Resource.Attribute.alertDialogTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.allowStacking = global::ProyectoFinal.Droid.Resource.Attribute.allowStacking;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.alpha = global::ProyectoFinal.Droid.Resource.Attribute.alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.arrowHeadLength = global::ProyectoFinal.Droid.Resource.Attribute.arrowHeadLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.arrowShaftLength = global::ProyectoFinal.Droid.Resource.Attribute.arrowShaftLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::ProyectoFinal.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.background = global::ProyectoFinal.Droid.Resource.Attribute.background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.backgroundSplit = global::ProyectoFinal.Droid.Resource.Attribute.backgroundSplit;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.backgroundStacked = global::ProyectoFinal.Droid.Resource.Attribute.backgroundStacked;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.backgroundTint = global::ProyectoFinal.Droid.Resource.Attribute.backgroundTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.backgroundTintMode = global::ProyectoFinal.Droid.Resource.Attribute.backgroundTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.barLength = global::ProyectoFinal.Droid.Resource.Attribute.barLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.behavior_autoHide = global::ProyectoFinal.Droid.Resource.Attribute.behavior_autoHide;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.behavior_hideable = global::ProyectoFinal.Droid.Resource.Attribute.behavior_hideable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.behavior_overlapTop = global::ProyectoFinal.Droid.Resource.Attribute.behavior_overlapTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.behavior_peekHeight = global::ProyectoFinal.Droid.Resource.Attribute.behavior_peekHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.behavior_skipCollapsed = global::ProyectoFinal.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.borderWidth = global::ProyectoFinal.Droid.Resource.Attribute.borderWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.borderlessButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::ProyectoFinal.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.bottomSheetStyle = global::ProyectoFinal.Droid.Resource.Attribute.bottomSheetStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonBarButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonBarStyle = global::ProyectoFinal.Droid.Resource.Attribute.buttonBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonGravity = global::ProyectoFinal.Droid.Resource.Attribute.buttonGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonPanelSideLayout = global::ProyectoFinal.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonStyle = global::ProyectoFinal.Droid.Resource.Attribute.buttonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonStyleSmall = global::ProyectoFinal.Droid.Resource.Attribute.buttonStyleSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonTint = global::ProyectoFinal.Droid.Resource.Attribute.buttonTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.buttonTintMode = global::ProyectoFinal.Droid.Resource.Attribute.buttonTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.cardBackgroundColor = global::ProyectoFinal.Droid.Resource.Attribute.cardBackgroundColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.cardCornerRadius = global::ProyectoFinal.Droid.Resource.Attribute.cardCornerRadius;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.cardElevation = global::ProyectoFinal.Droid.Resource.Attribute.cardElevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.cardMaxElevation = global::ProyectoFinal.Droid.Resource.Attribute.cardMaxElevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::ProyectoFinal.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.cardUseCompatPadding = global::ProyectoFinal.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.checkboxStyle = global::ProyectoFinal.Droid.Resource.Attribute.checkboxStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.checkedTextViewStyle = global::ProyectoFinal.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.closeIcon = global::ProyectoFinal.Droid.Resource.Attribute.closeIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.closeItemLayout = global::ProyectoFinal.Droid.Resource.Attribute.closeItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.collapseContentDescription = global::ProyectoFinal.Droid.Resource.Attribute.collapseContentDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.collapseIcon = global::ProyectoFinal.Droid.Resource.Attribute.collapseIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.collapsedTitleGravity = global::ProyectoFinal.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.color = global::ProyectoFinal.Droid.Resource.Attribute.color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorAccent = global::ProyectoFinal.Droid.Resource.Attribute.colorAccent;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorBackgroundFloating = global::ProyectoFinal.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorButtonNormal = global::ProyectoFinal.Droid.Resource.Attribute.colorButtonNormal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorControlActivated = global::ProyectoFinal.Droid.Resource.Attribute.colorControlActivated;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorControlHighlight = global::ProyectoFinal.Droid.Resource.Attribute.colorControlHighlight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorControlNormal = global::ProyectoFinal.Droid.Resource.Attribute.colorControlNormal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorPrimary = global::ProyectoFinal.Droid.Resource.Attribute.colorPrimary;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorPrimaryDark = global::ProyectoFinal.Droid.Resource.Attribute.colorPrimaryDark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::ProyectoFinal.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.commitIcon = global::ProyectoFinal.Droid.Resource.Attribute.commitIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentInsetEnd = global::ProyectoFinal.Droid.Resource.Attribute.contentInsetEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentInsetEndWithActions = global::ProyectoFinal.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentInsetLeft = global::ProyectoFinal.Droid.Resource.Attribute.contentInsetLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentInsetRight = global::ProyectoFinal.Droid.Resource.Attribute.contentInsetRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentInsetStart = global::ProyectoFinal.Droid.Resource.Attribute.contentInsetStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::ProyectoFinal.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentPadding = global::ProyectoFinal.Droid.Resource.Attribute.contentPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentPaddingBottom = global::ProyectoFinal.Droid.Resource.Attribute.contentPaddingBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentPaddingLeft = global::ProyectoFinal.Droid.Resource.Attribute.contentPaddingLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentPaddingRight = global::ProyectoFinal.Droid.Resource.Attribute.contentPaddingRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentPaddingTop = global::ProyectoFinal.Droid.Resource.Attribute.contentPaddingTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.contentScrim = global::ProyectoFinal.Droid.Resource.Attribute.contentScrim;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.controlBackground = global::ProyectoFinal.Droid.Resource.Attribute.controlBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.counterEnabled = global::ProyectoFinal.Droid.Resource.Attribute.counterEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.counterMaxLength = global::ProyectoFinal.Droid.Resource.Attribute.counterMaxLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.counterTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.counterTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.customNavigationLayout = global::ProyectoFinal.Droid.Resource.Attribute.customNavigationLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.defaultQueryHint = global::ProyectoFinal.Droid.Resource.Attribute.defaultQueryHint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dialogPreferredPadding = global::ProyectoFinal.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dialogTheme = global::ProyectoFinal.Droid.Resource.Attribute.dialogTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.displayOptions = global::ProyectoFinal.Droid.Resource.Attribute.displayOptions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.divider = global::ProyectoFinal.Droid.Resource.Attribute.divider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dividerHorizontal = global::ProyectoFinal.Droid.Resource.Attribute.dividerHorizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dividerPadding = global::ProyectoFinal.Droid.Resource.Attribute.dividerPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dividerVertical = global::ProyectoFinal.Droid.Resource.Attribute.dividerVertical;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.drawableSize = global::ProyectoFinal.Droid.Resource.Attribute.drawableSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.drawerArrowStyle = global::ProyectoFinal.Droid.Resource.Attribute.drawerArrowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dropDownListViewStyle = global::ProyectoFinal.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::ProyectoFinal.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.editTextBackground = global::ProyectoFinal.Droid.Resource.Attribute.editTextBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.editTextColor = global::ProyectoFinal.Droid.Resource.Attribute.editTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.editTextStyle = global::ProyectoFinal.Droid.Resource.Attribute.editTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.elevation = global::ProyectoFinal.Droid.Resource.Attribute.elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.errorEnabled = global::ProyectoFinal.Droid.Resource.Attribute.errorEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.errorTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.errorTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ProyectoFinal.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expanded = global::ProyectoFinal.Droid.Resource.Attribute.expanded;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleGravity = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleMargin = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleMargin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginStart = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginTop = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.fabSize = global::ProyectoFinal.Droid.Resource.Attribute.fabSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.foregroundInsidePadding = global::ProyectoFinal.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.gapBetweenBars = global::ProyectoFinal.Droid.Resource.Attribute.gapBetweenBars;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.goIcon = global::ProyectoFinal.Droid.Resource.Attribute.goIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.headerLayout = global::ProyectoFinal.Droid.Resource.Attribute.headerLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.height = global::ProyectoFinal.Droid.Resource.Attribute.height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.hideOnContentScroll = global::ProyectoFinal.Droid.Resource.Attribute.hideOnContentScroll;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.hintAnimationEnabled = global::ProyectoFinal.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.hintEnabled = global::ProyectoFinal.Droid.Resource.Attribute.hintEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.hintTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.hintTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.homeAsUpIndicator = global::ProyectoFinal.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.homeLayout = global::ProyectoFinal.Droid.Resource.Attribute.homeLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.icon = global::ProyectoFinal.Droid.Resource.Attribute.icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.iconifiedByDefault = global::ProyectoFinal.Droid.Resource.Attribute.iconifiedByDefault;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.imageButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.imageButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.indeterminateProgressStyle = global::ProyectoFinal.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.initialActivityCount = global::ProyectoFinal.Droid.Resource.Attribute.initialActivityCount;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.insetForeground = global::ProyectoFinal.Droid.Resource.Attribute.insetForeground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.isLightTheme = global::ProyectoFinal.Droid.Resource.Attribute.isLightTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.itemBackground = global::ProyectoFinal.Droid.Resource.Attribute.itemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.itemIconTint = global::ProyectoFinal.Droid.Resource.Attribute.itemIconTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.itemPadding = global::ProyectoFinal.Droid.Resource.Attribute.itemPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.itemTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.itemTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.itemTextColor = global::ProyectoFinal.Droid.Resource.Attribute.itemTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.keylines = global::ProyectoFinal.Droid.Resource.Attribute.keylines;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout = global::ProyectoFinal.Droid.Resource.Attribute.layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layoutManager = global::ProyectoFinal.Droid.Resource.Attribute.layoutManager;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_anchor = global::ProyectoFinal.Droid.Resource.Attribute.layout_anchor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_anchorGravity = global::ProyectoFinal.Droid.Resource.Attribute.layout_anchorGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_behavior = global::ProyectoFinal.Droid.Resource.Attribute.layout_behavior;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_collapseMode = global::ProyectoFinal.Droid.Resource.Attribute.layout_collapseMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::ProyectoFinal.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::ProyectoFinal.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_insetEdge = global::ProyectoFinal.Droid.Resource.Attribute.layout_insetEdge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_keyline = global::ProyectoFinal.Droid.Resource.Attribute.layout_keyline;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_scrollFlags = global::ProyectoFinal.Droid.Resource.Attribute.layout_scrollFlags;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.layout_scrollInterpolator = global::ProyectoFinal.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::ProyectoFinal.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listDividerAlertDialog = global::ProyectoFinal.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listItemLayout = global::ProyectoFinal.Droid.Resource.Attribute.listItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listLayout = global::ProyectoFinal.Droid.Resource.Attribute.listLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listMenuViewStyle = global::ProyectoFinal.Droid.Resource.Attribute.listMenuViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listPopupWindowStyle = global::ProyectoFinal.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeight = global::ProyectoFinal.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::ProyectoFinal.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::ProyectoFinal.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::ProyectoFinal.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::ProyectoFinal.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.logo = global::ProyectoFinal.Droid.Resource.Attribute.logo;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.logoDescription = global::ProyectoFinal.Droid.Resource.Attribute.logoDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.maxActionInlineWidth = global::ProyectoFinal.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.maxButtonHeight = global::ProyectoFinal.Droid.Resource.Attribute.maxButtonHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.measureWithLargestChild = global::ProyectoFinal.Droid.Resource.Attribute.measureWithLargestChild;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.menu = global::ProyectoFinal.Droid.Resource.Attribute.menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.multiChoiceItemLayout = global::ProyectoFinal.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.navigationContentDescription = global::ProyectoFinal.Droid.Resource.Attribute.navigationContentDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.navigationIcon = global::ProyectoFinal.Droid.Resource.Attribute.navigationIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.navigationMode = global::ProyectoFinal.Droid.Resource.Attribute.navigationMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.overlapAnchor = global::ProyectoFinal.Droid.Resource.Attribute.overlapAnchor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.paddingBottomNoButtons = global::ProyectoFinal.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.paddingEnd = global::ProyectoFinal.Droid.Resource.Attribute.paddingEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.paddingStart = global::ProyectoFinal.Droid.Resource.Attribute.paddingStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.paddingTopNoTitle = global::ProyectoFinal.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.panelBackground = global::ProyectoFinal.Droid.Resource.Attribute.panelBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.panelMenuListTheme = global::ProyectoFinal.Droid.Resource.Attribute.panelMenuListTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.panelMenuListWidth = global::ProyectoFinal.Droid.Resource.Attribute.panelMenuListWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.passwordToggleContentDescription = global::ProyectoFinal.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.passwordToggleDrawable = global::ProyectoFinal.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.passwordToggleEnabled = global::ProyectoFinal.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.passwordToggleTint = global::ProyectoFinal.Droid.Resource.Attribute.passwordToggleTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.passwordToggleTintMode = global::ProyectoFinal.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.popupMenuStyle = global::ProyectoFinal.Droid.Resource.Attribute.popupMenuStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.popupTheme = global::ProyectoFinal.Droid.Resource.Attribute.popupTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.popupWindowStyle = global::ProyectoFinal.Droid.Resource.Attribute.popupWindowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.preserveIconSpacing = global::ProyectoFinal.Droid.Resource.Attribute.preserveIconSpacing;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.pressedTranslationZ = global::ProyectoFinal.Droid.Resource.Attribute.pressedTranslationZ;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.progressBarPadding = global::ProyectoFinal.Droid.Resource.Attribute.progressBarPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.progressBarStyle = global::ProyectoFinal.Droid.Resource.Attribute.progressBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.queryBackground = global::ProyectoFinal.Droid.Resource.Attribute.queryBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.queryHint = global::ProyectoFinal.Droid.Resource.Attribute.queryHint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.radioButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.radioButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.ratingBarStyle = global::ProyectoFinal.Droid.Resource.Attribute.ratingBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::ProyectoFinal.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.ratingBarStyleSmall = global::ProyectoFinal.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.reverseLayout = global::ProyectoFinal.Droid.Resource.Attribute.reverseLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.rippleColor = global::ProyectoFinal.Droid.Resource.Attribute.rippleColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.scrimAnimationDuration = global::ProyectoFinal.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::ProyectoFinal.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.searchHintIcon = global::ProyectoFinal.Droid.Resource.Attribute.searchHintIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.searchIcon = global::ProyectoFinal.Droid.Resource.Attribute.searchIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.searchViewStyle = global::ProyectoFinal.Droid.Resource.Attribute.searchViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.seekBarStyle = global::ProyectoFinal.Droid.Resource.Attribute.seekBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.selectableItemBackground = global::ProyectoFinal.Droid.Resource.Attribute.selectableItemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::ProyectoFinal.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.showAsAction = global::ProyectoFinal.Droid.Resource.Attribute.showAsAction;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.showDividers = global::ProyectoFinal.Droid.Resource.Attribute.showDividers;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.showText = global::ProyectoFinal.Droid.Resource.Attribute.showText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.showTitle = global::ProyectoFinal.Droid.Resource.Attribute.showTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.singleChoiceItemLayout = global::ProyectoFinal.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.spanCount = global::ProyectoFinal.Droid.Resource.Attribute.spanCount;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.spinBars = global::ProyectoFinal.Droid.Resource.Attribute.spinBars;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::ProyectoFinal.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.spinnerStyle = global::ProyectoFinal.Droid.Resource.Attribute.spinnerStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.splitTrack = global::ProyectoFinal.Droid.Resource.Attribute.splitTrack;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.srcCompat = global::ProyectoFinal.Droid.Resource.Attribute.srcCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.stackFromEnd = global::ProyectoFinal.Droid.Resource.Attribute.stackFromEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.state_above_anchor = global::ProyectoFinal.Droid.Resource.Attribute.state_above_anchor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.state_collapsed = global::ProyectoFinal.Droid.Resource.Attribute.state_collapsed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.state_collapsible = global::ProyectoFinal.Droid.Resource.Attribute.state_collapsible;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.statusBarBackground = global::ProyectoFinal.Droid.Resource.Attribute.statusBarBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.statusBarScrim = global::ProyectoFinal.Droid.Resource.Attribute.statusBarScrim;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.subMenuArrow = global::ProyectoFinal.Droid.Resource.Attribute.subMenuArrow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.submitBackground = global::ProyectoFinal.Droid.Resource.Attribute.submitBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.subtitle = global::ProyectoFinal.Droid.Resource.Attribute.subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.subtitleTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.subtitleTextColor = global::ProyectoFinal.Droid.Resource.Attribute.subtitleTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.subtitleTextStyle = global::ProyectoFinal.Droid.Resource.Attribute.subtitleTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.suggestionRowLayout = global::ProyectoFinal.Droid.Resource.Attribute.suggestionRowLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.switchMinWidth = global::ProyectoFinal.Droid.Resource.Attribute.switchMinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.switchPadding = global::ProyectoFinal.Droid.Resource.Attribute.switchPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.switchStyle = global::ProyectoFinal.Droid.Resource.Attribute.switchStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.switchTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.switchTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabBackground = global::ProyectoFinal.Droid.Resource.Attribute.tabBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabContentStart = global::ProyectoFinal.Droid.Resource.Attribute.tabContentStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabGravity = global::ProyectoFinal.Droid.Resource.Attribute.tabGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabIndicatorColor = global::ProyectoFinal.Droid.Resource.Attribute.tabIndicatorColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabIndicatorHeight = global::ProyectoFinal.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabMaxWidth = global::ProyectoFinal.Droid.Resource.Attribute.tabMaxWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabMinWidth = global::ProyectoFinal.Droid.Resource.Attribute.tabMinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabMode = global::ProyectoFinal.Droid.Resource.Attribute.tabMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabPadding = global::ProyectoFinal.Droid.Resource.Attribute.tabPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabPaddingBottom = global::ProyectoFinal.Droid.Resource.Attribute.tabPaddingBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabPaddingEnd = global::ProyectoFinal.Droid.Resource.Attribute.tabPaddingEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabPaddingStart = global::ProyectoFinal.Droid.Resource.Attribute.tabPaddingStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabPaddingTop = global::ProyectoFinal.Droid.Resource.Attribute.tabPaddingTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabSelectedTextColor = global::ProyectoFinal.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.tabTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tabTextColor = global::ProyectoFinal.Droid.Resource.Attribute.tabTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAllCaps = global::ProyectoFinal.Droid.Resource.Attribute.textAllCaps;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItem = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceListItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::ProyectoFinal.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::ProyectoFinal.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::ProyectoFinal.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.textColorSearchUrl = global::ProyectoFinal.Droid.Resource.Attribute.textColorSearchUrl;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.theme = global::ProyectoFinal.Droid.Resource.Attribute.theme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.thickness = global::ProyectoFinal.Droid.Resource.Attribute.thickness;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.thumbTextPadding = global::ProyectoFinal.Droid.Resource.Attribute.thumbTextPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.thumbTint = global::ProyectoFinal.Droid.Resource.Attribute.thumbTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.thumbTintMode = global::ProyectoFinal.Droid.Resource.Attribute.thumbTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tickMark = global::ProyectoFinal.Droid.Resource.Attribute.tickMark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tickMarkTint = global::ProyectoFinal.Droid.Resource.Attribute.tickMarkTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tickMarkTintMode = global::ProyectoFinal.Droid.Resource.Attribute.tickMarkTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tint = global::ProyectoFinal.Droid.Resource.Attribute.tint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.tintMode = global::ProyectoFinal.Droid.Resource.Attribute.tintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.title = global::ProyectoFinal.Droid.Resource.Attribute.title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleEnabled = global::ProyectoFinal.Droid.Resource.Attribute.titleEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleMargin = global::ProyectoFinal.Droid.Resource.Attribute.titleMargin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleMarginBottom = global::ProyectoFinal.Droid.Resource.Attribute.titleMarginBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleMarginEnd = global::ProyectoFinal.Droid.Resource.Attribute.titleMarginEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleMarginStart = global::ProyectoFinal.Droid.Resource.Attribute.titleMarginStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleMarginTop = global::ProyectoFinal.Droid.Resource.Attribute.titleMarginTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleMargins = global::ProyectoFinal.Droid.Resource.Attribute.titleMargins;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleTextAppearance = global::ProyectoFinal.Droid.Resource.Attribute.titleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleTextColor = global::ProyectoFinal.Droid.Resource.Attribute.titleTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.titleTextStyle = global::ProyectoFinal.Droid.Resource.Attribute.titleTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.toolbarId = global::ProyectoFinal.Droid.Resource.Attribute.toolbarId;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::ProyectoFinal.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.toolbarStyle = global::ProyectoFinal.Droid.Resource.Attribute.toolbarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.track = global::ProyectoFinal.Droid.Resource.Attribute.track;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.trackTint = global::ProyectoFinal.Droid.Resource.Attribute.trackTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.trackTintMode = global::ProyectoFinal.Droid.Resource.Attribute.trackTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.useCompatPadding = global::ProyectoFinal.Droid.Resource.Attribute.useCompatPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.voiceIcon = global::ProyectoFinal.Droid.Resource.Attribute.voiceIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowActionBar = global::ProyectoFinal.Droid.Resource.Attribute.windowActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowActionBarOverlay = global::ProyectoFinal.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowActionModeOverlay = global::ProyectoFinal.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowFixedHeightMajor = global::ProyectoFinal.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowFixedHeightMinor = global::ProyectoFinal.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowFixedWidthMajor = global::ProyectoFinal.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowFixedWidthMinor = global::ProyectoFinal.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowMinWidthMajor = global::ProyectoFinal.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowMinWidthMinor = global::ProyectoFinal.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Attribute.windowNoTitle = global::ProyectoFinal.Droid.Resource.Attribute.windowNoTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::ProyectoFinal.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ProyectoFinal.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ProyectoFinal.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::ProyectoFinal.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::ProyectoFinal.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_btn_colored_text_material = global::ProyectoFinal.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_color_highlight_material = global::ProyectoFinal.Droid.Resource.Color.abc_color_highlight_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::ProyectoFinal.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_hint_foreground_material_light = global::ProyectoFinal.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::ProyectoFinal.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::ProyectoFinal.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_primary_text_material_dark = global::ProyectoFinal.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_primary_text_material_light = global::ProyectoFinal.Droid.Resource.Color.abc_primary_text_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_search_url_text = global::ProyectoFinal.Droid.Resource.Color.abc_search_url_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_search_url_text_normal = global::ProyectoFinal.Droid.Resource.Color.abc_search_url_text_normal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_search_url_text_pressed = global::ProyectoFinal.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_search_url_text_selected = global::ProyectoFinal.Droid.Resource.Color.abc_search_url_text_selected;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_secondary_text_material_dark = global::ProyectoFinal.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_secondary_text_material_light = global::ProyectoFinal.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_tint_btn_checkable = global::ProyectoFinal.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_tint_default = global::ProyectoFinal.Droid.Resource.Color.abc_tint_default;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_tint_edittext = global::ProyectoFinal.Droid.Resource.Color.abc_tint_edittext;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_tint_seek_thumb = global::ProyectoFinal.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_tint_spinner = global::ProyectoFinal.Droid.Resource.Color.abc_tint_spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.abc_tint_switch_track = global::ProyectoFinal.Droid.Resource.Color.abc_tint_switch_track;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.accent_material_dark = global::ProyectoFinal.Droid.Resource.Color.accent_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.accent_material_light = global::ProyectoFinal.Droid.Resource.Color.accent_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.background_floating_material_dark = global::ProyectoFinal.Droid.Resource.Color.background_floating_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.background_floating_material_light = global::ProyectoFinal.Droid.Resource.Color.background_floating_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.background_material_dark = global::ProyectoFinal.Droid.Resource.Color.background_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.background_material_light = global::ProyectoFinal.Droid.Resource.Color.background_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::ProyectoFinal.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::ProyectoFinal.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::ProyectoFinal.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::ProyectoFinal.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.bright_foreground_material_dark = global::ProyectoFinal.Droid.Resource.Color.bright_foreground_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.bright_foreground_material_light = global::ProyectoFinal.Droid.Resource.Color.bright_foreground_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.button_material_dark = global::ProyectoFinal.Droid.Resource.Color.button_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.button_material_light = global::ProyectoFinal.Droid.Resource.Color.button_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.cardview_dark_background = global::ProyectoFinal.Droid.Resource.Color.cardview_dark_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.cardview_light_background = global::ProyectoFinal.Droid.Resource.Color.cardview_light_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.cardview_shadow_end_color = global::ProyectoFinal.Droid.Resource.Color.cardview_shadow_end_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.cardview_shadow_start_color = global::ProyectoFinal.Droid.Resource.Color.cardview_shadow_start_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::ProyectoFinal.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_error = global::ProyectoFinal.Droid.Resource.Color.design_error;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_shadow_end_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_shadow_mid_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_shadow_start_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::ProyectoFinal.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.design_snackbar_background_color = global::ProyectoFinal.Droid.Resource.Color.design_snackbar_background_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::ProyectoFinal.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::ProyectoFinal.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.dim_foreground_material_dark = global::ProyectoFinal.Droid.Resource.Color.dim_foreground_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.dim_foreground_material_light = global::ProyectoFinal.Droid.Resource.Color.dim_foreground_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.foreground_material_dark = global::ProyectoFinal.Droid.Resource.Color.foreground_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.foreground_material_light = global::ProyectoFinal.Droid.Resource.Color.foreground_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.highlighted_text_material_dark = global::ProyectoFinal.Droid.Resource.Color.highlighted_text_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.highlighted_text_material_light = global::ProyectoFinal.Droid.Resource.Color.highlighted_text_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_blue_grey_800 = global::ProyectoFinal.Droid.Resource.Color.material_blue_grey_800;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_blue_grey_900 = global::ProyectoFinal.Droid.Resource.Color.material_blue_grey_900;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_blue_grey_950 = global::ProyectoFinal.Droid.Resource.Color.material_blue_grey_950;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_deep_teal_200 = global::ProyectoFinal.Droid.Resource.Color.material_deep_teal_200;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_deep_teal_500 = global::ProyectoFinal.Droid.Resource.Color.material_deep_teal_500;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_100 = global::ProyectoFinal.Droid.Resource.Color.material_grey_100;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_300 = global::ProyectoFinal.Droid.Resource.Color.material_grey_300;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_50 = global::ProyectoFinal.Droid.Resource.Color.material_grey_50;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_600 = global::ProyectoFinal.Droid.Resource.Color.material_grey_600;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_800 = global::ProyectoFinal.Droid.Resource.Color.material_grey_800;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_850 = global::ProyectoFinal.Droid.Resource.Color.material_grey_850;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.material_grey_900 = global::ProyectoFinal.Droid.Resource.Color.material_grey_900;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.notification_action_color_filter = global::ProyectoFinal.Droid.Resource.Color.notification_action_color_filter;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.notification_icon_bg_color = global::ProyectoFinal.Droid.Resource.Color.notification_icon_bg_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.notification_material_background_media_default_color = global::ProyectoFinal.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_dark_material_dark = global::ProyectoFinal.Droid.Resource.Color.primary_dark_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_dark_material_light = global::ProyectoFinal.Droid.Resource.Color.primary_dark_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_material_dark = global::ProyectoFinal.Droid.Resource.Color.primary_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_material_light = global::ProyectoFinal.Droid.Resource.Color.primary_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_text_default_material_dark = global::ProyectoFinal.Droid.Resource.Color.primary_text_default_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_text_default_material_light = global::ProyectoFinal.Droid.Resource.Color.primary_text_default_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_text_disabled_material_dark = global::ProyectoFinal.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.primary_text_disabled_material_light = global::ProyectoFinal.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.ripple_material_dark = global::ProyectoFinal.Droid.Resource.Color.ripple_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.ripple_material_light = global::ProyectoFinal.Droid.Resource.Color.ripple_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.secondary_text_default_material_dark = global::ProyectoFinal.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.secondary_text_default_material_light = global::ProyectoFinal.Droid.Resource.Color.secondary_text_default_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::ProyectoFinal.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.secondary_text_disabled_material_light = global::ProyectoFinal.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::ProyectoFinal.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::ProyectoFinal.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.switch_thumb_material_dark = global::ProyectoFinal.Droid.Resource.Color.switch_thumb_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.switch_thumb_material_light = global::ProyectoFinal.Droid.Resource.Color.switch_thumb_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::ProyectoFinal.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Color.switch_thumb_normal_material_light = global::ProyectoFinal.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ProyectoFinal.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ProyectoFinal.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::ProyectoFinal.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_control_corner_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_control_corner_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_control_inset_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_control_inset_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_control_padding_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_control_padding_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_padding_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::ProyectoFinal.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::ProyectoFinal.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::ProyectoFinal.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ProyectoFinal.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ProyectoFinal.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_floating_window_z = global::ProyectoFinal.Droid.Resource.Dimension.abc_floating_window_z;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::ProyectoFinal.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::ProyectoFinal.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::ProyectoFinal.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_switch_padding = global::ProyectoFinal.Droid.Resource.Dimension.abc_switch_padding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_button_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_caption_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_headline_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_large_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_medium_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_menu_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_small_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_title_material = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::ProyectoFinal.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::ProyectoFinal.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.cardview_default_elevation = global::ProyectoFinal.Droid.Resource.Dimension.cardview_default_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.cardview_default_radius = global::ProyectoFinal.Droid.Resource.Dimension.cardview_default_radius;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_appbar_elevation = global::ProyectoFinal.Droid.Resource.Dimension.design_appbar_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_height = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ProyectoFinal.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_fab_border_width = global::ProyectoFinal.Droid.Resource.Dimension.design_fab_border_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_fab_elevation = global::ProyectoFinal.Droid.Resource.Dimension.design_fab_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_fab_image_size = global::ProyectoFinal.Droid.Resource.Dimension.design_fab_image_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_fab_size_mini = global::ProyectoFinal.Droid.Resource.Dimension.design_fab_size_mini;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_fab_size_normal = global::ProyectoFinal.Droid.Resource.Dimension.design_fab_size_normal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::ProyectoFinal.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_navigation_elevation = global::ProyectoFinal.Droid.Resource.Dimension.design_navigation_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_navigation_icon_padding = global::ProyectoFinal.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_navigation_icon_size = global::ProyectoFinal.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_navigation_max_width = global::ProyectoFinal.Droid.Resource.Dimension.design_navigation_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::ProyectoFinal.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::ProyectoFinal.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_elevation = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_max_width = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_min_width = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_snackbar_text_size = global::ProyectoFinal.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_tab_max_width = global::ProyectoFinal.Droid.Resource.Dimension.design_tab_max_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::ProyectoFinal.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_tab_text_size = global::ProyectoFinal.Droid.Resource.Dimension.design_tab_text_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.design_tab_text_size_2line = global::ProyectoFinal.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::ProyectoFinal.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.disabled_alpha_material_light = global::ProyectoFinal.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::ProyectoFinal.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::ProyectoFinal.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_light = global::ProyectoFinal.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.hint_alpha_material_dark = global::ProyectoFinal.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.hint_alpha_material_light = global::ProyectoFinal.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::ProyectoFinal.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::ProyectoFinal.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ProyectoFinal.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ProyectoFinal.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ProyectoFinal.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_action_icon_size = global::ProyectoFinal.Droid.Resource.Dimension.notification_action_icon_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_action_text_size = global::ProyectoFinal.Droid.Resource.Dimension.notification_action_text_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_big_circle_margin = global::ProyectoFinal.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_content_margin_start = global::ProyectoFinal.Droid.Resource.Dimension.notification_content_margin_start;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_large_icon_height = global::ProyectoFinal.Droid.Resource.Dimension.notification_large_icon_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_large_icon_width = global::ProyectoFinal.Droid.Resource.Dimension.notification_large_icon_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_main_column_padding_top = global::ProyectoFinal.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_media_narrow_margin = global::ProyectoFinal.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_right_icon_size = global::ProyectoFinal.Droid.Resource.Dimension.notification_right_icon_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_right_side_padding_top = global::ProyectoFinal.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::ProyectoFinal.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::ProyectoFinal.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_subtext_size = global::ProyectoFinal.Droid.Resource.Dimension.notification_subtext_size;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_top_pad = global::ProyectoFinal.Droid.Resource.Dimension.notification_top_pad;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Dimension.notification_top_pad_large_text = global::ProyectoFinal.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_borderless_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_check_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_colored_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ProyectoFinal.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::ProyectoFinal.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_top_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_control_background_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_control_background_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_dialog_material_background = global::ProyectoFinal.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_edit_text_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_edit_text_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_clear_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_search_api_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::ProyectoFinal.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_item_background_holo_light = global::ProyectoFinal.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_focused_holo = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::ProyectoFinal.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ProyectoFinal.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::ProyectoFinal.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ProyectoFinal.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ProyectoFinal.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_track_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_switch_thumb_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_tab_indicator_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_text_cursor_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ProyectoFinal.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_material = global::ProyectoFinal.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.abc_vector_test = global::ProyectoFinal.Droid.Resource.Drawable.abc_vector_test;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.avd_hide_password = global::ProyectoFinal.Droid.Resource.Drawable.avd_hide_password;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.avd_show_password = global::ProyectoFinal.Droid.Resource.Drawable.avd_show_password;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.design_fab_background = global::ProyectoFinal.Droid.Resource.Drawable.design_fab_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.design_ic_visibility = global::ProyectoFinal.Droid.Resource.Drawable.design_ic_visibility;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.design_ic_visibility_off = global::ProyectoFinal.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.design_password_eye = global::ProyectoFinal.Droid.Resource.Drawable.design_password_eye;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.design_snackbar_background = global::ProyectoFinal.Droid.Resource.Drawable.design_snackbar_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.navigation_empty_icon = global::ProyectoFinal.Droid.Resource.Drawable.navigation_empty_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_action_background = global::ProyectoFinal.Droid.Resource.Drawable.notification_action_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_bg = global::ProyectoFinal.Droid.Resource.Drawable.notification_bg;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_bg_low = global::ProyectoFinal.Droid.Resource.Drawable.notification_bg_low;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_bg_low_normal = global::ProyectoFinal.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_bg_low_pressed = global::ProyectoFinal.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_bg_normal = global::ProyectoFinal.Droid.Resource.Drawable.notification_bg_normal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::ProyectoFinal.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_icon_background = global::ProyectoFinal.Droid.Resource.Drawable.notification_icon_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_template_icon_bg = global::ProyectoFinal.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::ProyectoFinal.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notification_tile_bg = global::ProyectoFinal.Droid.Resource.Drawable.notification_tile_bg;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::ProyectoFinal.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action0 = global::ProyectoFinal.Droid.Resource.Id.action0;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar = global::ProyectoFinal.Droid.Resource.Id.action_bar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar_activity_content = global::ProyectoFinal.Droid.Resource.Id.action_bar_activity_content;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar_container = global::ProyectoFinal.Droid.Resource.Id.action_bar_container;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar_root = global::ProyectoFinal.Droid.Resource.Id.action_bar_root;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar_spinner = global::ProyectoFinal.Droid.Resource.Id.action_bar_spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar_subtitle = global::ProyectoFinal.Droid.Resource.Id.action_bar_subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_bar_title = global::ProyectoFinal.Droid.Resource.Id.action_bar_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_container = global::ProyectoFinal.Droid.Resource.Id.action_container;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_context_bar = global::ProyectoFinal.Droid.Resource.Id.action_context_bar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_divider = global::ProyectoFinal.Droid.Resource.Id.action_divider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_image = global::ProyectoFinal.Droid.Resource.Id.action_image;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_menu_divider = global::ProyectoFinal.Droid.Resource.Id.action_menu_divider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_menu_presenter = global::ProyectoFinal.Droid.Resource.Id.action_menu_presenter;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_mode_bar = global::ProyectoFinal.Droid.Resource.Id.action_mode_bar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_mode_bar_stub = global::ProyectoFinal.Droid.Resource.Id.action_mode_bar_stub;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_mode_close_button = global::ProyectoFinal.Droid.Resource.Id.action_mode_close_button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.action_text = global::ProyectoFinal.Droid.Resource.Id.action_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.actions = global::ProyectoFinal.Droid.Resource.Id.actions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.activity_chooser_view_content = global::ProyectoFinal.Droid.Resource.Id.activity_chooser_view_content;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.add = global::ProyectoFinal.Droid.Resource.Id.add;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.alertTitle = global::ProyectoFinal.Droid.Resource.Id.alertTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.all = global::ProyectoFinal.Droid.Resource.Id.all;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.always = global::ProyectoFinal.Droid.Resource.Id.always;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.auto = global::ProyectoFinal.Droid.Resource.Id.auto;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.beginning = global::ProyectoFinal.Droid.Resource.Id.beginning;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.bottom = global::ProyectoFinal.Droid.Resource.Id.bottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.buttonPanel = global::ProyectoFinal.Droid.Resource.Id.buttonPanel;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.cancel_action = global::ProyectoFinal.Droid.Resource.Id.cancel_action;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.center = global::ProyectoFinal.Droid.Resource.Id.center;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.center_horizontal = global::ProyectoFinal.Droid.Resource.Id.center_horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.center_vertical = global::ProyectoFinal.Droid.Resource.Id.center_vertical;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.checkbox = global::ProyectoFinal.Droid.Resource.Id.checkbox;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.chronometer = global::ProyectoFinal.Droid.Resource.Id.chronometer;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.clip_horizontal = global::ProyectoFinal.Droid.Resource.Id.clip_horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.clip_vertical = global::ProyectoFinal.Droid.Resource.Id.clip_vertical;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.collapseActionView = global::ProyectoFinal.Droid.Resource.Id.collapseActionView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.container = global::ProyectoFinal.Droid.Resource.Id.container;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.contentPanel = global::ProyectoFinal.Droid.Resource.Id.contentPanel;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.coordinator = global::ProyectoFinal.Droid.Resource.Id.coordinator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.custom = global::ProyectoFinal.Droid.Resource.Id.custom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.customPanel = global::ProyectoFinal.Droid.Resource.Id.customPanel;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.decor_content_parent = global::ProyectoFinal.Droid.Resource.Id.decor_content_parent;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.default_activity_button = global::ProyectoFinal.Droid.Resource.Id.default_activity_button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.design_bottom_sheet = global::ProyectoFinal.Droid.Resource.Id.design_bottom_sheet;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.design_menu_item_action_area = global::ProyectoFinal.Droid.Resource.Id.design_menu_item_action_area;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.design_menu_item_action_area_stub = global::ProyectoFinal.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.design_menu_item_text = global::ProyectoFinal.Droid.Resource.Id.design_menu_item_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.design_navigation_view = global::ProyectoFinal.Droid.Resource.Id.design_navigation_view;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.disableHome = global::ProyectoFinal.Droid.Resource.Id.disableHome;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.edit_query = global::ProyectoFinal.Droid.Resource.Id.edit_query;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.end = global::ProyectoFinal.Droid.Resource.Id.end;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.end_padder = global::ProyectoFinal.Droid.Resource.Id.end_padder;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.enterAlways = global::ProyectoFinal.Droid.Resource.Id.enterAlways;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.enterAlwaysCollapsed = global::ProyectoFinal.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.exitUntilCollapsed = global::ProyectoFinal.Droid.Resource.Id.exitUntilCollapsed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.expand_activities_button = global::ProyectoFinal.Droid.Resource.Id.expand_activities_button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.expanded_menu = global::ProyectoFinal.Droid.Resource.Id.expanded_menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.fill = global::ProyectoFinal.Droid.Resource.Id.fill;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.fill_horizontal = global::ProyectoFinal.Droid.Resource.Id.fill_horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.fill_vertical = global::ProyectoFinal.Droid.Resource.Id.fill_vertical;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.@fixed = global::ProyectoFinal.Droid.Resource.Id.@fixed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.home = global::ProyectoFinal.Droid.Resource.Id.home;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.homeAsUp = global::ProyectoFinal.Droid.Resource.Id.homeAsUp;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.icon = global::ProyectoFinal.Droid.Resource.Id.icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.icon_group = global::ProyectoFinal.Droid.Resource.Id.icon_group;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.ifRoom = global::ProyectoFinal.Droid.Resource.Id.ifRoom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.image = global::ProyectoFinal.Droid.Resource.Id.image;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.info = global::ProyectoFinal.Droid.Resource.Id.info;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::ProyectoFinal.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.left = global::ProyectoFinal.Droid.Resource.Id.left;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.line1 = global::ProyectoFinal.Droid.Resource.Id.line1;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.line3 = global::ProyectoFinal.Droid.Resource.Id.line3;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.listMode = global::ProyectoFinal.Droid.Resource.Id.listMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.list_item = global::ProyectoFinal.Droid.Resource.Id.list_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.masked = global::ProyectoFinal.Droid.Resource.Id.masked;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.media_actions = global::ProyectoFinal.Droid.Resource.Id.media_actions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.middle = global::ProyectoFinal.Droid.Resource.Id.middle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.mini = global::ProyectoFinal.Droid.Resource.Id.mini;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.multiply = global::ProyectoFinal.Droid.Resource.Id.multiply;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.navigation_header_container = global::ProyectoFinal.Droid.Resource.Id.navigation_header_container;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.never = global::ProyectoFinal.Droid.Resource.Id.never;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.none = global::ProyectoFinal.Droid.Resource.Id.none;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.normal = global::ProyectoFinal.Droid.Resource.Id.normal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.notification_background = global::ProyectoFinal.Droid.Resource.Id.notification_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.notification_main_column = global::ProyectoFinal.Droid.Resource.Id.notification_main_column;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.notification_main_column_container = global::ProyectoFinal.Droid.Resource.Id.notification_main_column_container;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.parallax = global::ProyectoFinal.Droid.Resource.Id.parallax;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.parentPanel = global::ProyectoFinal.Droid.Resource.Id.parentPanel;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.pin = global::ProyectoFinal.Droid.Resource.Id.pin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.progress_circular = global::ProyectoFinal.Droid.Resource.Id.progress_circular;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.progress_horizontal = global::ProyectoFinal.Droid.Resource.Id.progress_horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.radio = global::ProyectoFinal.Droid.Resource.Id.radio;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.right = global::ProyectoFinal.Droid.Resource.Id.right;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.right_icon = global::ProyectoFinal.Droid.Resource.Id.right_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.right_side = global::ProyectoFinal.Droid.Resource.Id.right_side;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.screen = global::ProyectoFinal.Droid.Resource.Id.screen;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.scroll = global::ProyectoFinal.Droid.Resource.Id.scroll;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.scrollIndicatorDown = global::ProyectoFinal.Droid.Resource.Id.scrollIndicatorDown;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.scrollIndicatorUp = global::ProyectoFinal.Droid.Resource.Id.scrollIndicatorUp;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.scrollView = global::ProyectoFinal.Droid.Resource.Id.scrollView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.scrollable = global::ProyectoFinal.Droid.Resource.Id.scrollable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_badge = global::ProyectoFinal.Droid.Resource.Id.search_badge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_bar = global::ProyectoFinal.Droid.Resource.Id.search_bar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_button = global::ProyectoFinal.Droid.Resource.Id.search_button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_close_btn = global::ProyectoFinal.Droid.Resource.Id.search_close_btn;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_edit_frame = global::ProyectoFinal.Droid.Resource.Id.search_edit_frame;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_go_btn = global::ProyectoFinal.Droid.Resource.Id.search_go_btn;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_mag_icon = global::ProyectoFinal.Droid.Resource.Id.search_mag_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_plate = global::ProyectoFinal.Droid.Resource.Id.search_plate;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_src_text = global::ProyectoFinal.Droid.Resource.Id.search_src_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.search_voice_btn = global::ProyectoFinal.Droid.Resource.Id.search_voice_btn;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.select_dialog_listview = global::ProyectoFinal.Droid.Resource.Id.select_dialog_listview;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.shortcut = global::ProyectoFinal.Droid.Resource.Id.shortcut;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.showCustom = global::ProyectoFinal.Droid.Resource.Id.showCustom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.showHome = global::ProyectoFinal.Droid.Resource.Id.showHome;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.showTitle = global::ProyectoFinal.Droid.Resource.Id.showTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.snackbar_action = global::ProyectoFinal.Droid.Resource.Id.snackbar_action;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.snackbar_text = global::ProyectoFinal.Droid.Resource.Id.snackbar_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.snap = global::ProyectoFinal.Droid.Resource.Id.snap;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.spacer = global::ProyectoFinal.Droid.Resource.Id.spacer;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.split_action_bar = global::ProyectoFinal.Droid.Resource.Id.split_action_bar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.src_atop = global::ProyectoFinal.Droid.Resource.Id.src_atop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.src_in = global::ProyectoFinal.Droid.Resource.Id.src_in;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.src_over = global::ProyectoFinal.Droid.Resource.Id.src_over;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.start = global::ProyectoFinal.Droid.Resource.Id.start;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.status_bar_latest_event_content = global::ProyectoFinal.Droid.Resource.Id.status_bar_latest_event_content;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.submenuarrow = global::ProyectoFinal.Droid.Resource.Id.submenuarrow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.submit_area = global::ProyectoFinal.Droid.Resource.Id.submit_area;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.tabMode = global::ProyectoFinal.Droid.Resource.Id.tabMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.text = global::ProyectoFinal.Droid.Resource.Id.text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.text2 = global::ProyectoFinal.Droid.Resource.Id.text2;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.textSpacerNoButtons = global::ProyectoFinal.Droid.Resource.Id.textSpacerNoButtons;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.textSpacerNoTitle = global::ProyectoFinal.Droid.Resource.Id.textSpacerNoTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.textinput_counter = global::ProyectoFinal.Droid.Resource.Id.textinput_counter;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.textinput_error = global::ProyectoFinal.Droid.Resource.Id.textinput_error;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.time = global::ProyectoFinal.Droid.Resource.Id.time;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.title = global::ProyectoFinal.Droid.Resource.Id.title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.titleDividerNoCustom = global::ProyectoFinal.Droid.Resource.Id.titleDividerNoCustom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.title_template = global::ProyectoFinal.Droid.Resource.Id.title_template;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.top = global::ProyectoFinal.Droid.Resource.Id.top;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.topPanel = global::ProyectoFinal.Droid.Resource.Id.topPanel;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.touch_outside = global::ProyectoFinal.Droid.Resource.Id.touch_outside;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.transition_current_scene = global::ProyectoFinal.Droid.Resource.Id.transition_current_scene;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.transition_scene_layoutid_cache = global::ProyectoFinal.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.up = global::ProyectoFinal.Droid.Resource.Id.up;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.useLogo = global::ProyectoFinal.Droid.Resource.Id.useLogo;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.view_offset_helper = global::ProyectoFinal.Droid.Resource.Id.view_offset_helper;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.visible = global::ProyectoFinal.Droid.Resource.Id.visible;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.withText = global::ProyectoFinal.Droid.Resource.Id.withText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Id.wrap_content = global::ProyectoFinal.Droid.Resource.Id.wrap_content;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::ProyectoFinal.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.abc_config_activityShortDur = global::ProyectoFinal.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::ProyectoFinal.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::ProyectoFinal.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.cancel_button_image_alpha = global::ProyectoFinal.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::ProyectoFinal.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.hide_password_duration = global::ProyectoFinal.Droid.Resource.Integer.hide_password_duration;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.show_password_duration = global::ProyectoFinal.Droid.Resource.Integer.show_password_duration;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::ProyectoFinal.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_action_bar_title_item = global::ProyectoFinal.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_action_bar_up_container = global::ProyectoFinal.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_action_menu_item_layout = global::ProyectoFinal.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_action_menu_layout = global::ProyectoFinal.Droid.Resource.Layout.abc_action_menu_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_action_mode_bar = global::ProyectoFinal.Droid.Resource.Layout.abc_action_mode_bar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::ProyectoFinal.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_activity_chooser_view = global::ProyectoFinal.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::ProyectoFinal.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::ProyectoFinal.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_material = global::ProyectoFinal.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::ProyectoFinal.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_dialog_title_material = global::ProyectoFinal.Droid.Resource.Layout.abc_dialog_title_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_expanded_menu_layout = global::ProyectoFinal.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::ProyectoFinal.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_icon = global::ProyectoFinal.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_layout = global::ProyectoFinal.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_radio = global::ProyectoFinal.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::ProyectoFinal.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::ProyectoFinal.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_screen_content_include = global::ProyectoFinal.Droid.Resource.Layout.abc_screen_content_include;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_screen_simple = global::ProyectoFinal.Droid.Resource.Layout.abc_screen_simple;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ProyectoFinal.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_screen_toolbar = global::ProyectoFinal.Droid.Resource.Layout.abc_screen_toolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ProyectoFinal.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_search_view = global::ProyectoFinal.Droid.Resource.Layout.abc_search_view;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.abc_select_dialog_material = global::ProyectoFinal.Droid.Resource.Layout.abc_select_dialog_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_bottom_navigation_item = global::ProyectoFinal.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::ProyectoFinal.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_layout_snackbar = global::ProyectoFinal.Droid.Resource.Layout.design_layout_snackbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_layout_snackbar_include = global::ProyectoFinal.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_layout_tab_icon = global::ProyectoFinal.Droid.Resource.Layout.design_layout_tab_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_layout_tab_text = global::ProyectoFinal.Droid.Resource.Layout.design_layout_tab_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_menu_item_action_area = global::ProyectoFinal.Droid.Resource.Layout.design_menu_item_action_area;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_navigation_item = global::ProyectoFinal.Droid.Resource.Layout.design_navigation_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_navigation_item_header = global::ProyectoFinal.Droid.Resource.Layout.design_navigation_item_header;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_navigation_item_separator = global::ProyectoFinal.Droid.Resource.Layout.design_navigation_item_separator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_navigation_item_subheader = global::ProyectoFinal.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_navigation_menu = global::ProyectoFinal.Droid.Resource.Layout.design_navigation_menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.design_navigation_menu_item = global::ProyectoFinal.Droid.Resource.Layout.design_navigation_menu_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_action = global::ProyectoFinal.Droid.Resource.Layout.notification_action;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_action_tombstone = global::ProyectoFinal.Droid.Resource.Layout.notification_action_tombstone;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_media_action = global::ProyectoFinal.Droid.Resource.Layout.notification_media_action;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_media_cancel_action = global::ProyectoFinal.Droid.Resource.Layout.notification_media_cancel_action;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_big_media = global::ProyectoFinal.Droid.Resource.Layout.notification_template_big_media;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_custom = global::ProyectoFinal.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_narrow = global::ProyectoFinal.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::ProyectoFinal.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_custom_big = global::ProyectoFinal.Droid.Resource.Layout.notification_template_custom_big;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_icon_group = global::ProyectoFinal.Droid.Resource.Layout.notification_template_icon_group;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_lines_media = global::ProyectoFinal.Droid.Resource.Layout.notification_template_lines_media;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_media = global::ProyectoFinal.Droid.Resource.Layout.notification_template_media;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_media_custom = global::ProyectoFinal.Droid.Resource.Layout.notification_template_media_custom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_part_chronometer = global::ProyectoFinal.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.notification_template_part_time = global::ProyectoFinal.Droid.Resource.Layout.notification_template_part_time;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.select_dialog_item_material = global::ProyectoFinal.Droid.Resource.Layout.select_dialog_item_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.select_dialog_multichoice_material = global::ProyectoFinal.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::ProyectoFinal.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::ProyectoFinal.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.ApplicationName = global::ProyectoFinal.Droid.Resource.String.ApplicationName;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.Hello = global::ProyectoFinal.Droid.Resource.String.Hello;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_action_bar_home_description = global::ProyectoFinal.Droid.Resource.String.abc_action_bar_home_description;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_action_bar_up_description = global::ProyectoFinal.Droid.Resource.String.abc_action_bar_up_description;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_action_menu_overflow_description = global::ProyectoFinal.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_action_mode_done = global::ProyectoFinal.Droid.Resource.String.abc_action_mode_done;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::ProyectoFinal.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_activitychooserview_choose_application = global::ProyectoFinal.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_capital_off = global::ProyectoFinal.Droid.Resource.String.abc_capital_off;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_capital_on = global::ProyectoFinal.Droid.Resource.String.abc_capital_on;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_search_hint = global::ProyectoFinal.Droid.Resource.String.abc_search_hint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_searchview_description_clear = global::ProyectoFinal.Droid.Resource.String.abc_searchview_description_clear;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_searchview_description_query = global::ProyectoFinal.Droid.Resource.String.abc_searchview_description_query;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_searchview_description_search = global::ProyectoFinal.Droid.Resource.String.abc_searchview_description_search;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_searchview_description_submit = global::ProyectoFinal.Droid.Resource.String.abc_searchview_description_submit;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_searchview_description_voice = global::ProyectoFinal.Droid.Resource.String.abc_searchview_description_voice;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_shareactionprovider_share_with = global::ProyectoFinal.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::ProyectoFinal.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.abc_toolbar_collapse_description = global::ProyectoFinal.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.appbar_scrolling_view_behavior = global::ProyectoFinal.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.bottom_sheet_behavior = global::ProyectoFinal.Droid.Resource.String.bottom_sheet_behavior;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.character_counter_pattern = global::ProyectoFinal.Droid.Resource.String.character_counter_pattern;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.password_toggle_content_description = global::ProyectoFinal.Droid.Resource.String.password_toggle_content_description;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.path_password_eye = global::ProyectoFinal.Droid.Resource.String.path_password_eye;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.path_password_eye_mask_strike_through = global::ProyectoFinal.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.path_password_eye_mask_visible = global::ProyectoFinal.Droid.Resource.String.path_password_eye_mask_visible;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.path_password_strike_through = global::ProyectoFinal.Droid.Resource.String.path_password_strike_through;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.search_menu_title = global::ProyectoFinal.Droid.Resource.String.search_menu_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.String.status_bar_notification_info_overflow = global::ProyectoFinal.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.AlertDialog_AppCompat = global::ProyectoFinal.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::ProyectoFinal.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::ProyectoFinal.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ProyectoFinal.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_CardView = global::ProyectoFinal.Droid.Resource.Style.Base_CardView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ProyectoFinal.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ProyectoFinal.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ProyectoFinal.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ProyectoFinal.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::ProyectoFinal.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.CardView = global::ProyectoFinal.Droid.Resource.Style.CardView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.CardView_Dark = global::ProyectoFinal.Droid.Resource.Style.CardView_Dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.CardView_Light = global::ProyectoFinal.Droid.Resource.Style.CardView_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Platform_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ProyectoFinal.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_V21_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_V25_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ProyectoFinal.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ProyectoFinal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ProyectoFinal.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ProyectoFinal.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Counter = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Error = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Hint = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Tab = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ProyectoFinal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_Design = global::ProyectoFinal.Droid.Resource.Style.Theme_Design;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::ProyectoFinal.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_Design_Light = global::ProyectoFinal.Droid.Resource.Style.Theme_Design_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ProyectoFinal.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Theme_Design_NoActionBar = global::ProyectoFinal.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::ProyectoFinal.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_EditText = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ProyectoFinal.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_NavigationView = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_Snackbar = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_TabLayout = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::ProyectoFinal.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_background = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_displayOptions = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_divider = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_divider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_elevation = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_height = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_homeLayout = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_icon = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_itemPadding = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_logo = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_logo;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_navigationMode = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_popupTheme = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_subtitle = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_title = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::ProyectoFinal.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBarLayout = global::ProyectoFinal.Droid.Resource.Styleable.ActionBarLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ProyectoFinal.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMenuItemView = global::ProyectoFinal.Droid.Resource.Styleable.ActionMenuItemView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ProyectoFinal.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMenuView = global::ProyectoFinal.Droid.Resource.Styleable.ActionMenuView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode_background = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode_height = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::ProyectoFinal.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView = global::ProyectoFinal.Droid.Resource.Styleable.ActivityChooserView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ProyectoFinal.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ProyectoFinal.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_android_layout = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_listLayout = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_showTitle = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ProyectoFinal.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_android_background = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_elevation = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_expanded = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ProyectoFinal.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatImageView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_tint = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ProyectoFinal.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView = global::ProyectoFinal.Droid.Resource.Styleable.BottomNavigationView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::ProyectoFinal.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ProyectoFinal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ProyectoFinal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ProyectoFinal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ButtonBarLayout = global::ProyectoFinal.Droid.Resource.Styleable.ButtonBarLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::ProyectoFinal.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView = global::ProyectoFinal.Droid.Resource.Styleable.CardView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_android_minHeight = global::ProyectoFinal.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_android_minWidth = global::ProyectoFinal.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::ProyectoFinal.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::ProyectoFinal.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_cardElevation = global::ProyectoFinal.Droid.Resource.Styleable.CardView_cardElevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::ProyectoFinal.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ProyectoFinal.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::ProyectoFinal.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_contentPadding = global::ProyectoFinal.Droid.Resource.Styleable.CardView_contentPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::ProyectoFinal.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::ProyectoFinal.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::ProyectoFinal.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::ProyectoFinal.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ProyectoFinal.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem = global::ProyectoFinal.Droid.Resource.Styleable.ColorStateListItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::ProyectoFinal.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::ProyectoFinal.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::ProyectoFinal.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CompoundButton = global::ProyectoFinal.Droid.Resource.Styleable.CompoundButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CompoundButton_android_button = global::ProyectoFinal.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::ProyectoFinal.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::ProyectoFinal.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ProyectoFinal.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::ProyectoFinal.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ProyectoFinal.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout = global::ProyectoFinal.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ProyectoFinal.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ProyectoFinal.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ProyectoFinal.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ProyectoFinal.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow = global::ProyectoFinal.Droid.Resource.Styleable.ListPopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ProyectoFinal.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ProyectoFinal.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_id = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_visible = global::ProyectoFinal.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionLayout = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_checkable = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_checked = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_enabled = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_icon = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_id = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_id;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_onClick = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_title = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_visible = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuItem_showAsAction = global::ProyectoFinal.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView = global::ProyectoFinal.Droid.Resource.Styleable.MenuView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::ProyectoFinal.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_background = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_android_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_elevation = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_headerLayout = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemBackground = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.NavigationView_menu = global::ProyectoFinal.Droid.Resource.Styleable.NavigationView_menu;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.PopupWindow = global::ProyectoFinal.Droid.Resource.Styleable.PopupWindow;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ProyectoFinal.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::ProyectoFinal.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::ProyectoFinal.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::ProyectoFinal.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ProyectoFinal.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecycleListView = global::ProyectoFinal.Droid.Resource.Styleable.RecycleListView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ProyectoFinal.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ProyectoFinal.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView_spanCount = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::ProyectoFinal.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::ProyectoFinal.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ProyectoFinal.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::ProyectoFinal.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ProyectoFinal.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView = global::ProyectoFinal.Droid.Resource.Styleable.SearchView;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_android_focusable = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_android_inputType = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_closeIcon = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_commitIcon = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_goIcon = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_goIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_layout = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_queryBackground = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_queryHint = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_queryHint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_searchIcon = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_submitBackground = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SearchView_voiceIcon = global::ProyectoFinal.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout = global::ProyectoFinal.Droid.Resource.Styleable.SnackbarLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ProyectoFinal.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::ProyectoFinal.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ProyectoFinal.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Spinner = global::ProyectoFinal.Droid.Resource.Styleable.Spinner;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::ProyectoFinal.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Spinner_android_entries = global::ProyectoFinal.Droid.Resource.Styleable.Spinner_android_entries;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::ProyectoFinal.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Spinner_android_prompt = global::ProyectoFinal.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Spinner_popupTheme = global::ProyectoFinal.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_showText = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_track = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_track;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::ProyectoFinal.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabItem = global::ProyectoFinal.Droid.Resource.Styleable.TabItem;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabItem_android_icon = global::ProyectoFinal.Droid.Resource.Styleable.TabItem_android_icon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabItem_android_layout = global::ProyectoFinal.Droid.Resource.Styleable.TabItem_android_layout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabItem_android_text = global::ProyectoFinal.Droid.Resource.Styleable.TabItem_android_text;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabBackground = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabGravity = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMode = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPadding = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::ProyectoFinal.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::ProyectoFinal.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ProyectoFinal.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_android_gravity = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_logo = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_logo;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_logoDescription = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_popupTheme = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitle = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_title = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_title;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMargin = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMargins = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::ProyectoFinal.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.View = global::ProyectoFinal.Droid.Resource.Styleable.View;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.View_android_focusable = global::ProyectoFinal.Droid.Resource.Styleable.View_android_focusable;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.View_android_theme = global::ProyectoFinal.Droid.Resource.Styleable.View_android_theme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.View_paddingEnd = global::ProyectoFinal.Droid.Resource.Styleable.View_paddingEnd;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.View_paddingStart = global::ProyectoFinal.Droid.Resource.Styleable.View_paddingStart;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.View_theme = global::ProyectoFinal.Droid.Resource.Styleable.View_theme;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper = global::ProyectoFinal.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::ProyectoFinal.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ProyectoFinal.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ProyectoFinal.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat = global::ProyectoFinal.Droid.Resource.Styleable.ViewStubCompat;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::ProyectoFinal.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ProyectoFinal.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EntryCustomReturn.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::ProyectoFinal.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Plugin.Media.Resource.Attribute.alpha = global::ProyectoFinal.Droid.Resource.Attribute.alpha;
 			global::Plugin.Media.Resource.Attribute.coordinatorLayoutStyle = global::ProyectoFinal.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Plugin.Media.Resource.Attribute.font = global::ProyectoFinal.Droid.Resource.Attribute.font;
@@ -19388,202 +21164,229 @@ namespace ProyectoFinal.Droid
 			public const int calc = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int calendario = 2131165283;
+			public const int calend = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int cargando = 2131165284;
+			public const int camara = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int chim = 2131165285;
+			public const int cargando = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int Civil = 2131165286;
+			public const int chim = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int corre = 2131165287;
+			public const int Civil = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int design_fab_background = 2131165288;
+			public const int corre = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int design_ic_visibility = 2131165289;
+			public const int depar = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_ic_visibility_off = 2131165290;
+			public const int design_fab_background = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int design_password_eye = 2131165291;
+			public const int design_ic_visibility = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int design_snackbar_background = 2131165292;
+			public const int design_ic_visibility_off = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int divi = 2131165293;
+			public const int design_password_eye = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int editar = 2131165294;
+			public const int design_snackbar_background = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int Fondos = 2131165295;
+			public const int divi = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_arrow_down_24dp = 2131165296;
+			public const int editar = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ic_clock_black_24dp = 2131165297;
+			public const int estadocivil = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_keyboard_black_24dp = 2131165298;
+			public const int Fondos = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int ic_mtrl_checked_circle = 2131165299;
+			public const int guardar = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int ic_mtrl_chip_checked_black = 2131165300;
+			public const int ic_arrow_down_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int ic_mtrl_chip_checked_circle = 2131165301;
+			public const int ic_clock_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int ic_mtrl_chip_close_circle = 2131165302;
+			public const int ic_keyboard_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int Inicio = 2131165303;
+			public const int ic_mtrl_checked_circle = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int Lista = 2131165304;
+			public const int ic_mtrl_chip_checked_black = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int logo = 2131165305;
+			public const int ic_mtrl_chip_checked_circle = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_cursor_drawable = 2131165306;
+			public const int ic_mtrl_chip_close_circle = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_calendar_black_24dp = 2131165307;
+			public const int Inicio = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int material_ic_clear_black_24dp = 2131165308;
+			public const int Lista = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int material_ic_edit_black_24dp = 2131165309;
+			public const int logo = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165310;
+			public const int material_cursor_drawable = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165311;
+			public const int material_ic_calendar_black_24dp = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165312;
+			public const int material_ic_clear_black_24dp = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165313;
+			public const int material_ic_edit_black_24dp = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165314;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165315;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_dialog_background = 2131165316;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_dropdown_arrow = 2131165317;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int mtrl_ic_arrow_drop_down = 2131165318;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int mtrl_ic_arrow_drop_up = 2131165319;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int mtrl_ic_cancel = 2131165320;
+			public const int mtrl_dialog_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int mtrl_ic_error = 2131165321;
+			public const int mtrl_dropdown_arrow = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int mtrl_navigation_bar_item_background = 2131165322;
+			public const int mtrl_ic_arrow_drop_down = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int mtrl_popupmenu_background = 2131165323;
+			public const int mtrl_ic_arrow_drop_up = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int mtrl_popupmenu_background_dark = 2131165324;
+			public const int mtrl_ic_cancel = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int mtrl_tabs_default_indicator = 2131165325;
+			public const int mtrl_ic_error = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int navigation_empty_icon = 2131165326;
+			public const int mtrl_navigation_bar_item_background = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_action_background = 2131165327;
+			public const int mtrl_popupmenu_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_bg = 2131165328;
+			public const int mtrl_popupmenu_background_dark = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_bg_low = 2131165329;
+			public const int mtrl_tabs_default_indicator = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notification_bg_low_normal = 2131165330;
+			public const int munici = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int notification_bg_low_pressed = 2131165331;
+			public const int navigation_empty_icon = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int notification_bg_normal = 2131165332;
+			public const int norte = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int notification_bg_normal_pressed = 2131165333;
+			public const int notification_action_background = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int notification_icon_background = 2131165334;
+			public const int notification_bg = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int notification_template_icon_bg = 2131165335;
+			public const int notification_bg_low = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int notification_template_icon_low_bg = 2131165336;
+			public const int notification_bg_low_normal = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int notification_tile_bg = 2131165337;
+			public const int notification_bg_low_pressed = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int notify_panel_notification_icon_bg = 2131165338;
+			public const int notification_bg_normal = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int preference_list_divider_material = 2131165339;
+			public const int notification_bg_normal_pressed = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int SplashPresentacion = 2131165340;
+			public const int notification_icon_background = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int sum = 2131165341;
+			public const int notification_template_icon_bg = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int Telefono = 2131165342;
+			public const int notification_template_icon_low_bg = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int test_custom_background = 2131165343;
+			public const int notification_tile_bg = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int tooltip_frame_dark = 2131165344;
+			public const int notify_panel_notification_icon_bg = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int tooltip_frame_light = 2131165345;
+			public const int pais = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ubicacion = 2131165346;
+			public const int preference_list_divider_material = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ucenm = 2131165347;
+			public const int Salir = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int usuario = 2131165348;
+			public const int SplashPresentacion = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int sum = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int sur = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int Telefono = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int test_custom_background = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int tooltip_frame_dark = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int tooltip_frame_light = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ubicacion = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ucenm = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int usuario = 2131165357;
 			
 			static Drawable()
 			{
@@ -21740,359 +23543,365 @@ namespace ProyectoFinal.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int abc_action_bar_home_description = 2131623936;
-			
-			// aapt resource value: 0x7F0E0001
-			public const int abc_action_bar_up_description = 2131623937;
-			
 			// aapt resource value: 0x7F0E0002
-			public const int abc_action_menu_overflow_description = 2131623938;
+			public const int abc_action_bar_home_description = 2131623938;
 			
 			// aapt resource value: 0x7F0E0003
-			public const int abc_action_mode_done = 2131623939;
-			
-			// aapt resource value: 0x7F0E0005
-			public const int abc_activitychooserview_choose_application = 2131623941;
+			public const int abc_action_bar_up_description = 2131623939;
 			
 			// aapt resource value: 0x7F0E0004
-			public const int abc_activity_chooser_view_see_all = 2131623940;
+			public const int abc_action_menu_overflow_description = 2131623940;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int abc_capital_off = 2131623942;
+			// aapt resource value: 0x7F0E0005
+			public const int abc_action_mode_done = 2131623941;
 			
 			// aapt resource value: 0x7F0E0007
-			public const int abc_capital_on = 2131623943;
+			public const int abc_activitychooserview_choose_application = 2131623943;
+			
+			// aapt resource value: 0x7F0E0006
+			public const int abc_activity_chooser_view_see_all = 2131623942;
 			
 			// aapt resource value: 0x7F0E0008
-			public const int abc_menu_alt_shortcut_label = 2131623944;
+			public const int abc_capital_off = 2131623944;
 			
 			// aapt resource value: 0x7F0E0009
-			public const int abc_menu_ctrl_shortcut_label = 2131623945;
+			public const int abc_capital_on = 2131623945;
 			
 			// aapt resource value: 0x7F0E000A
-			public const int abc_menu_delete_shortcut_label = 2131623946;
+			public const int abc_menu_alt_shortcut_label = 2131623946;
 			
 			// aapt resource value: 0x7F0E000B
-			public const int abc_menu_enter_shortcut_label = 2131623947;
+			public const int abc_menu_ctrl_shortcut_label = 2131623947;
 			
 			// aapt resource value: 0x7F0E000C
-			public const int abc_menu_function_shortcut_label = 2131623948;
+			public const int abc_menu_delete_shortcut_label = 2131623948;
 			
 			// aapt resource value: 0x7F0E000D
-			public const int abc_menu_meta_shortcut_label = 2131623949;
+			public const int abc_menu_enter_shortcut_label = 2131623949;
 			
 			// aapt resource value: 0x7F0E000E
-			public const int abc_menu_shift_shortcut_label = 2131623950;
+			public const int abc_menu_function_shortcut_label = 2131623950;
 			
 			// aapt resource value: 0x7F0E000F
-			public const int abc_menu_space_shortcut_label = 2131623951;
+			public const int abc_menu_meta_shortcut_label = 2131623951;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int abc_menu_sym_shortcut_label = 2131623952;
+			public const int abc_menu_shift_shortcut_label = 2131623952;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int abc_prepend_shortcut_label = 2131623953;
-			
-			// aapt resource value: 0x7F0E0013
-			public const int abc_searchview_description_clear = 2131623955;
-			
-			// aapt resource value: 0x7F0E0014
-			public const int abc_searchview_description_query = 2131623956;
-			
-			// aapt resource value: 0x7F0E0015
-			public const int abc_searchview_description_search = 2131623957;
-			
-			// aapt resource value: 0x7F0E0016
-			public const int abc_searchview_description_submit = 2131623958;
-			
-			// aapt resource value: 0x7F0E0017
-			public const int abc_searchview_description_voice = 2131623959;
+			public const int abc_menu_space_shortcut_label = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int abc_search_hint = 2131623954;
+			public const int abc_menu_sym_shortcut_label = 2131623954;
+			
+			// aapt resource value: 0x7F0E0013
+			public const int abc_prepend_shortcut_label = 2131623955;
+			
+			// aapt resource value: 0x7F0E0015
+			public const int abc_searchview_description_clear = 2131623957;
+			
+			// aapt resource value: 0x7F0E0016
+			public const int abc_searchview_description_query = 2131623958;
+			
+			// aapt resource value: 0x7F0E0017
+			public const int abc_searchview_description_search = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int abc_shareactionprovider_share_with = 2131623960;
+			public const int abc_searchview_description_submit = 2131623960;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int abc_shareactionprovider_share_with_application = 2131623961;
+			public const int abc_searchview_description_voice = 2131623961;
+			
+			// aapt resource value: 0x7F0E0014
+			public const int abc_search_hint = 2131623956;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int abc_toolbar_collapse_description = 2131623962;
+			public const int abc_shareactionprovider_share_with = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
-			// aapt resource value: 0x7F0E001D
-			public const int bottomsheet_action_expand_halfway = 2131623965;
+			public const int abc_shareactionprovider_share_with_application = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int abc_toolbar_collapse_description = 2131623964;
 			
-			// aapt resource value: 0x7F0E001E
-			public const int character_counter_content_description = 2131623966;
+			// aapt resource value: 0x7F0E001D
+			public const int appbar_scrolling_view_behavior = 2131623965;
+			
+			// aapt resource value: 0x7F0E0000
+			public const int ApplicationName = 2131623936;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_overflowed_content_description = 2131623967;
+			public const int bottomsheet_action_expand_halfway = 2131623967;
+			
+			// aapt resource value: 0x7F0E001E
+			public const int bottom_sheet_behavior = 2131623966;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int character_counter_pattern = 2131623968;
+			public const int character_counter_content_description = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int chip_text = 2131623969;
+			public const int character_counter_overflowed_content_description = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int clear_text_end_icon_content_description = 2131623970;
+			public const int character_counter_pattern = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int copy = 2131623971;
+			public const int chip_text = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int copy_toast_msg = 2131623972;
+			public const int clear_text_end_icon_content_description = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int error_icon_content_description = 2131623973;
+			public const int copy = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int expand_button_title = 2131623974;
+			public const int copy_toast_msg = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int exposed_dropdown_menu_content_description = 2131623975;
+			public const int error_icon_content_description = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fab_transformation_scrim_behavior = 2131623976;
+			public const int expand_button_title = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fab_transformation_sheet_behavior = 2131623977;
+			public const int exposed_dropdown_menu_content_description = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int fallback_menu_item_copy_link = 2131623978;
+			public const int fab_transformation_scrim_behavior = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int fallback_menu_item_open_in_browser = 2131623979;
+			public const int fab_transformation_sheet_behavior = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int fallback_menu_item_share_link = 2131623980;
+			public const int fallback_menu_item_copy_link = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131623981;
+			public const int fallback_menu_item_open_in_browser = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int icon_content_description = 2131623982;
+			public const int fallback_menu_item_share_link = 2131623982;
+			
+			// aapt resource value: 0x7F0E0001
+			public const int Hello = 2131623937;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int item_view_role_description = 2131623983;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int icon_content_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int item_view_role_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int material_clock_display_divider = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_clock_toggle_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_hour_selection = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_hour_suffix = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_minute_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_minute_suffix = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_motion_easing_accelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_decelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_emphasized = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_linear = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_motion_easing_standard = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_slider_range_end = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_slider_range_start = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_timepicker_am = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_clock_mode_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_hour = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_minute = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_pm = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_select_time = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int material_timepicker_text_input_mode_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int mtrl_badge_numberless_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_chip_close_icon_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_picker_a11y_next_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_a11y_prev_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_announce_current_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_cancel = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_confirm = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_date_header_selected = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_title = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_date_header_unselected = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_day_of_week_column_header = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_invalid_format = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format_example = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_format_use = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_invalid_range = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_navigate_to_year_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_out_of_range = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_title = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_range_header_unselected = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_save = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_day_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_month_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_text_input_year_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int nav_app_bar_navigate_up_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int nav_app_bar_open_drawer_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int not_set = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int overflow_tab_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int password_toggle_content_description = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int path_password_eye = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye_mask_strike_through = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_eye_mask_visible = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int path_password_strike_through = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int preference_copied = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int search_menu_title = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{

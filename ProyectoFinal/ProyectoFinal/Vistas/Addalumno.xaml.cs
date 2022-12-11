@@ -44,20 +44,25 @@ namespace ProyectoFinal.Vistas
 
       private String traeImagenToBase64()
         {
-            if (photo != null)
+            
+            using (MemoryStream memory = new MemoryStream())
             {
-                using (MemoryStream memory = new MemoryStream())
-                {
-                    Stream stream = photo.GetStream();
-                    stream.CopyTo(memory);
-                    byte[] fotobyte = memory.ToArray();
-
-                    string Base64String = Convert.ToBase64String(fotobyte);
-                    return Base64String;
-                }
+                Stream stream = photo.GetStream();
+                stream.CopyTo(memory);
+                byte[] imagenBytes = memory.ToArray();
+                string imagenEnBase64 = Convert.ToBase64String(imagenBytes);
+                return imagenEnBase64;
             }
-            return null;
         }
+
+            
+
+       
+
+
+
+
+
 
         public static ImageSource Base64ToImage(string base64)
         {
@@ -85,7 +90,7 @@ namespace ProyectoFinal.Vistas
             photo = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
                 Directory = "Capertafotos",
-                Name = "Foto.png",
+                Name = "Foto.jpg",
                 SaveToAlbum = true
               });
 
@@ -116,17 +121,17 @@ namespace ProyectoFinal.Vistas
                     Telefono = Convert.ToInt32(telefono.Text),
                     Latitud = Convert.ToDouble(latitud.Text),
                     Longitud = Convert.ToDouble(longitud.Text),
-                    Foto = Convert.ToString(traeImagenToBase64()),
+                    Foto = traeImagenToBase64(),
                 };
                 if (await Models.Cntrolcrud.CreateAlumno(alumn) > 0)
                 {
-                    await DisplayAlert("Alumno Creado", "El Alumno " + alumn.Nombres + "Ha sido creado", "OK");
+                    await DisplayAlert("Alumno Creado", "El Alumno " + alumn.Nombres + " Ha sido creado", "OK");
                     await Navigation.PushAsync(new Registros());
 
                 }
                 else
                 {
-                    await DisplayAlert("Error", "El Alumno " + alumn.Nombres + "No se Ha sido creado", "OK");
+                    await DisplayAlert("Error", "El Alumno " + alumn.Nombres + " No se Ha sido creado", "OK");
                 }
 
             }
@@ -152,16 +157,18 @@ namespace ProyectoFinal.Vistas
                 Foto = traeImagenToBase64(),
             };
             await Models.Cntrolcrud.EditarAlumnos(alumn);
-            await DisplayAlert("Alumno Actualizado", "El Alumno " + alumn.Nombres + "Ha sido Actualizado", "OK");
+            await DisplayAlert("Alumno Actualizado", "El Alumno " + alumn.Nombres + " Ha sido Actualizado", "OK");
             await Navigation.PushAsync(new Registros());
         }
 
+     
+        public string envia64(string imagen)
+        {
+            byte[] imagenBytes = File.ReadAllBytes(imagen);
+            string imagenEnBase64 = Convert.ToBase64String(imagenBytes);
+            return imagenEnBase64;
+        }
 
-
-
-
-
-        
 
 
 
